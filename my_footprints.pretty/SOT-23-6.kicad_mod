@@ -1,0 +1,385 @@
+(footprint "SOT-23-6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "REF**"
+		(at -2.8 -0.41 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "861f5c5a-49ca-47f0-8519-36699daa3215")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "USBLC6-4SC6"
+		(at 0 -0.0875 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "934b2025-02e7-40df-ae38-fd66238c7b7c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "my_footprints:SOT-23-6"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb6186c-6f1f-4455-a3f3-9f5c1b5cd45a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/e6/1c/4f/b6/9a/44/e6/CD00047494.pdf/files/CD00047494.pdf/jcr:content/translations/en.CD00047494.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f09ed2b1-80ff-4558-9196-d285198c8585")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TVS DIODE 5.25V 17V SOT23-6"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0457b17-8cd3-44bf-87b9-db7ebfc066f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digi-Key_PN" "497-4492-1-ND"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cbbf5cb-2b0a-48e7-b9b2-363a91060957")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "USBLC6-4SC6"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f739d785-69ed-48a2-9718-927e3b82326b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" "Circuit Protection"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ded45f23-19cc-43a3-afe1-720f965f2d7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Family" "TVS - Diodes"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca7df9a9-c500-401a-a138-9b7f9dfeff9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Datasheet_Link" "http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/e6/1c/4f/b6/9a/44/e6/CD00047494.pdf/files/CD00047494.pdf/jcr:content/translations/en.CD00047494.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd82bacd-bf13-471c-bdb3-23daef1b2497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Detail_Page" "/product-detail/en/stmicroelectronics/USBLC6-4SC6/497-4492-1-ND/725667"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6ff0f39-4ec0-48b2-a0ae-d4f71ea9cf53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "TVS DIODE 5.25V 17V SOT23-6"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96c32dea-ab66-4d53-b356-091ca74eed91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "STMicroelectronics"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3daf910-9ce1-4ee0-a522-72979a4d76f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Active"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb0fced1-dab8-485e-9e4a-e45df25ee4a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 1.560001)
+		(end 0.8 1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bd5481a-b928-4557-acf1-c4710b8fa86c")
+	)
+	(fp_line
+		(start 0 1.560001)
+		(end -0.8 1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d1f8911-44ab-4174-9f09-62a617a77207")
+	)
+	(fp_line
+		(start 0 -1.560001)
+		(end 0.8 -1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ebcc553-9598-497d-98d6-76040b0b146d")
+	)
+	(fp_line
+		(start 0 -1.560001)
+		(end -0.8 -1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09e3e080-5e17-4e85-93c5-c92c05dea07e")
+	)
+	(fp_poly
+		(pts
+			(xy -1.3 -1.51) (xy -1.54 -1.84) (xy -1.06 -1.84) (xy -1.3 -1.51)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "83587093-2acb-4cf7-8661-0ed6b948eddc")
+	)
+	(fp_line
+		(start 2.049999 1.7)
+		(end 2.049999 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a212c5b6-b9a6-4b62-81b9-93113741c17b")
+	)
+	(fp_line
+		(start 2.049999 -1.7)
+		(end -2.049999 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39c6257f-96de-4cf0-bf9d-f0d817f7fce3")
+	)
+	(fp_line
+		(start -2.049999 1.7)
+		(end 2.049999 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdb64a84-80b4-4df0-a0c2-9db32122571e")
+	)
+	(fp_line
+		(start -2.049999 -1.7)
+		(end -2.049999 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26062535-ee34-491d-b26b-529096d27a4a")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2bbcdf5-6421-443e-a67a-40a69c7a0c70")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0dcd381-5471-4750-82ba-c52a5809ac63")
+	)
+	(fp_line
+		(start -0.4 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcfb8959-e729-40a6-bfbd-fc09ef381762")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.050001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f4b9302-2662-4ef4-939c-c9c33247b980")
+	)
+	(fp_line
+		(start -0.8 -1.050001)
+		(end -0.4 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d92bda7-a3ae-4181-9d66-dab3e24c0f74")
+	)
+	(pad "1" smd roundrect
+		(at -1.1375 -0.949999 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e1b41b80-cb2d-4af3-9f00-664492d4c2ee")
+	)
+	(pad "2" smd roundrect
+		(at -1.1375 0 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8053ba9e-c8ea-450f-bc7e-d06f36a3f6d7")
+	)
+	(pad "3" smd roundrect
+		(at -1.1375 0.949999 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2d225f49-cfe7-401a-9836-8121bff591fe")
+	)
+	(pad "4" smd roundrect
+		(at 1.1375 0.949999 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e49986ae-8070-433c-9449-f57e1a6b002b")
+	)
+	(pad "5" smd roundrect
+		(at 1.1375 0 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d8e05b33-45e3-422e-acdc-1ad7aa34dbb7")
+	)
+	(pad "6" smd roundrect
+		(at 1.1375 -0.949999 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2177a3b6-6390-4b25-ab7a-ef7707b29f08")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,148 @@
+(footprint "MIC_CMA-4544PF-W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.717015 0)
+		(layer "F.SilkS")
+		(uuid "2b6b3472-1d9a-4a3e-b654-668355e0cf8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MIC_CMA-4544PF-W"
+		(at 0 5.720735 0)
+		(layer "F.Fab")
+		(uuid "d4822069-b817-4365-b6b4-5c486ebb6895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "300aff5d-043b-44ab-97ad-181bcb6728fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da292fdc-1be0-4d4c-86e6-b8d7850832c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f96416cb-758c-4dc9-a9ce-21f1aebf2aac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f09942d6-23e7-4d44-8184-40ed738eb728")
+	)
+	(fp_circle
+		(center 5.443 1.741)
+		(end 5.543 1.741)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8857c0a9-7399-443f-af30-69fdc84a79a8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d437035c-390f-4028-9822-df9dc5dca2bc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "73639e36-1516-4fe1-9c30-e5e86ebfc7e8")
+	)
+	(fp_circle
+		(center 5.443 1.741)
+		(end 5.543 1.741)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "49523c35-81c6-49a7-bc75-ef9f04a7b788")
+	)
+	(pad "1" thru_hole roundrect
+		(at 2 1.27)
+		(size 1.378 1.378)
+		(drill 0.87)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "37f6c401-b6f1-4fcb-9ffc-9887f5103962")
+	)
+	(pad "2" thru_hole circle
+		(at 2 -1.27)
+		(size 1.378 1.378)
+		(drill 0.87)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4500d7a-686e-4327-b235-2f978181afe7")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/CUI_DEVICES_CMA-4544PF-W.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

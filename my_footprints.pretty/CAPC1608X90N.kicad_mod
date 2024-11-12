@@ -1,0 +1,292 @@
+(footprint "CAPC1608X90N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.21 -1.05 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "77d413b2-3470-428b-90d0-8b442ca2c9f2")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "0.1u"
+		(at 1.54 1.05 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c67c8d2d-34f8-4fdb-95ab-7852e42d81f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "my_footprints:CAPC1608X90N"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6a4a5d7-a95a-4d45-a01b-22aa363616a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "998ac606-1e95-404f-93e1-e1f8969c713b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ab0bf9d-a431-4f78-9e7f-c4d8065832b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Murata Electronics"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9996b08e-23ea-4932-88dc-28b04f99fc39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\nSMD capacitor X8L(MURATA) with capacitance 0.10uF Tol.10%. Rated voltage 50Vdc 150C\n"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9332f91b-e336-4662-ad67-b7204c674ce0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "1608 Murata"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77e982eb-82e5-4bcc-9580-be61023c0776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a1ce0a-82ce-4fae-8caa-f903958757eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/GCM188L81H104KA57D/Murata+Electronics+North+America/view-part/?ref=snap"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d0595f1-95f1-466c-993a-dc1e7a9a2da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "GCM188L81H104KA57D"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3974916-d614-4a16-97cf-192ad7e8dea8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1796559&manufacturer=Murata Electronics&part_name=GCM188L81H104KA57D&search_term=gcm188l81h104ka57d"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c632f9b1-31e1-4ec8-b201-c9a6e4eef632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d245210-d636-42cd-abc3-79214a226bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/GCM188L81H104KA57D/Murata+Electronics+North+America/view-part/?ref=eda"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edc1bdce-eb79-4079-bb86-25b9267f033f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.465 0.715)
+		(end 1.465 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29829546-48d4-4126-b7ea-425d4a72b05d")
+	)
+	(fp_line
+		(start -1.465 0.715)
+		(end 1.465 0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c5aeaf5-a2ee-482f-ab4d-d0a6642b1db8")
+	)
+	(fp_line
+		(start -1.465 0.715)
+		(end -1.465 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd234f40-cbf1-4aa9-b2e0-d2e619fe4f0c")
+	)
+	(fp_line
+		(start -1.465 -0.715)
+		(end 1.465 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97d08e4d-dd6e-4271-b4fc-dcca6828902d")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5189aee-bf78-44fa-804e-f0d2b876c4e1")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end -0.85 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5cf8d25-7a57-484f-b2d4-929fb4bdec6b")
+	)
+	(fp_line
+		(start 0.85 -0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76ecb7b8-ad08-48a0-87ff-cb59dd27bc93")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96151445-13fa-4bae-91ea-51180b89e905")
+	)
+	(pad "1" smd rect
+		(at -0.77 0 180)
+		(size 0.89 0.93)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2517ca74-9b2f-4d93-bdc4-09cafc192236")
+	)
+	(pad "2" smd rect
+		(at 0.77 0 180)
+		(size 0.89 0.93)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "faa9e67f-8a43-41e1-93e7-80ebec60ec06")
+	)
+	(model "/home/weber/kicad/my_lib/my_3dmodels/GCM188L81H104KA57D.step"
+		(offset
+			(xyz 0 -0.45 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

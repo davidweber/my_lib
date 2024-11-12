@@ -1,0 +1,296 @@
+(footprint "CAPMP3516X190N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.25 -1.75 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8241ee08-887f-44a9-aeb9-eb01daa4c3ad")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "TAJB106K025RNJ"
+		(at 3.0846 2.0614 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59ba2dc9-10d5-4cb5-b1dd-34ef0a8fe833")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "my_footprints:CAPMP3516X190N"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b6eb1f3-d13b-4766-9cb3-1c9ee791c125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24d72620-9611-48b8-8953-572e6eaf863f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "10 µF Molded Tantalum Capacitors 25 V 1411 (3528 Metric), 1210 2.5Ohm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4332783b-9056-4728-bc20-2d39833ef0cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "AVX"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "040ddbf0-b090-4af7-a7bc-699346d4987a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "1411 AVX Corporation"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a5bcda1-e002-4b04-9591-1768dabcba16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "None"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a2a8d71-38dd-4a48-91e7-1206a98aadcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "TAJB106K025RNJ"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d06bb24a-1ec1-4a8c-9059-141d324cc78b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "In Stock"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aab908ca-a6c8-4a45-bb80-7dd7ea3d5d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/TAJB106K025RNJ/?ref=eda"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb8c353e-b7fa-4b62-baac-54056eaab0e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.245 -0.8)
+		(end 0.245 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce3a8fae-365f-4d16-8ae0-62442b375f90")
+	)
+	(fp_line
+		(start -0.245 0.8)
+		(end 0.245 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa923dba-967a-4d73-a3d3-72fdc0cfc366")
+	)
+	(fp_circle
+		(center -2.65 0)
+		(end -2.55 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ee5a0497-8471-419e-87d9-cbb143720255")
+	)
+	(fp_line
+		(start -2.605 -1.405)
+		(end -2.605 1.405)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5dea6d0-70c3-42aa-aa19-eae8a4c93984")
+	)
+	(fp_line
+		(start -2.605 1.405)
+		(end 2.605 1.405)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6e3b497-0eac-439c-9c76-135b1ea94fc9")
+	)
+	(fp_line
+		(start 2.605 -1.405)
+		(end -2.605 -1.405)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f25c52fd-0fc4-4987-a0d4-b3e73decc33e")
+	)
+	(fp_line
+		(start 2.605 1.405)
+		(end 2.605 -1.405)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c08523f7-43ed-4693-b3c8-7dd4d81e16ec")
+	)
+	(fp_line
+		(start -1.75 -0.8)
+		(end -1.75 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b5a9a55-2ff1-4780-8ce2-dbde2bb02331")
+	)
+	(fp_line
+		(start -1.75 -0.8)
+		(end 1.75 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "295d8037-90ec-45e7-8dbd-7d6319dfef90")
+	)
+	(fp_line
+		(start -1.75 0.8)
+		(end 1.75 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5cce8287-a6c3-49f1-83f9-3b325ce1a9fb")
+	)
+	(fp_line
+		(start 1.75 -0.8)
+		(end 1.75 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51207ac1-b4d9-4623-a240-a764f750c64b")
+	)
+	(fp_circle
+		(center -2.65 0)
+		(end -2.55 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6abb0595-6cf9-4bd4-8546-4a553c9d60ea")
+	)
+	(pad "1" smd rect
+		(at -1.46 0 180)
+		(size 1.79 2.31)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c75c17ca-348f-4691-8940-84300a911685")
+	)
+	(pad "2" smd rect
+		(at 1.46 0 180)
+		(size 1.79 2.31)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a9839af0-13b9-4240-9528-6ceac5739cbf")
+	)
+	(model "/home/weber/kicad/my_lib/my_3dmodels/TAJB106K025RNJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

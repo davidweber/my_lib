@@ -1,0 +1,144 @@
+(footprint "Inductor_13R106C"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.murata-ps.com/data/magnetics/kmp_1300r.pdf")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "399ed208-35ad-4bf4-b610-7fe6231e0b56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Inductor_13R106C"
+		(at 0 6.4 0)
+		(layer "F.Fab")
+		(uuid "0710c835-2bd6-4ae9-af48-701926e4b5ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc92a5b5-e1b8-42e5-8ad6-483a00298cc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74a5bb52-b2e1-4dfa-be48-d1a1a45db0f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dec9f6b-cf4c-4542-91da-d42f186a7419")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.9 -0.4)
+		(end -4.9 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65a3cf54-2b0b-4f7c-8f48-d35e426f26f8")
+	)
+	(fp_line
+		(start -0.4 -4.9)
+		(end 0.4 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e5569ef-4d49-470e-a884-bafd12bb229f")
+	)
+	(fp_line
+		(start -0.3 4.9)
+		(end 0.3 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68d457f8-7ead-4af6-b9d8-d6d2ee1204ea")
+	)
+	(fp_line
+		(start 4.9 -0.5)
+		(end 4.9 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "081bd39a-82c3-410f-8701-89626ffe25da")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "72df5bad-04b4-4d38-bf51-97595c35cbb3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3392ff5c-a7ee-4361-98d6-eb2e66a3af0d")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bf5ecb5-dc91-405c-9da1-9235d5a6933c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ebed3d4b-57e3-402d-a3b4-01de021729c1")
+	)
+)

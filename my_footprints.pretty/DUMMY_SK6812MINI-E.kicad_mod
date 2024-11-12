@@ -1,0 +1,195 @@
+(footprint "DUMMY_SK6812MINI-E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
+	(tags "rotary encoder")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "37269a2e-8029-471c-bd9f-6e82981f40f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DUMMY_SK6812MINI-E"
+		(at 0 5.65 0)
+		(layer "F.Fab")
+		(uuid "5070ea80-bf5d-49fd-b521-7d631642bc97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a70c837-f11d-4c67-a82f-38c054d79b53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee2b08fa-ce84-42a7-982f-e4f0bae24f34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9848bb2e-4eb6-4470-95fd-6b44b591b040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.7 1.25)
+		(end -3.7 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dde08934-e68e-4b27-85d5-f72e06b88ec3")
+	)
+	(fp_line
+		(start -3.3 1.25)
+		(end -3.7 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "680bdefc-9617-4fef-b9b5-5304e402e8d6")
+	)
+	(fp_line
+		(start -3.9 -2.25)
+		(end 4 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93d2d494-e28e-4e50-9cd0-f75ab9d7216d")
+	)
+	(fp_line
+		(start -3.9 2.25)
+		(end -3.9 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e18210d7-5ca4-4e51-80ad-efd652631941")
+	)
+	(fp_line
+		(start 4 -2.25)
+		(end 4 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca5887ad-d1af-417a-b03c-8e451a142b59")
+	)
+	(fp_line
+		(start 4 2.25)
+		(end -3.9 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84535a12-f255-4a7a-bf81-0a65f7b30db0")
+	)
+	(fp_line
+		(start -3.8 -2.15)
+		(end 3.9 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a22d0f1b-8046-4cbd-9bdc-f46dd6068be3")
+	)
+	(fp_line
+		(start -3.8 2.16)
+		(end -3.8 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0a7e6f5-6c1f-4cd6-aa15-9871e80a4a63")
+	)
+	(fp_line
+		(start 3.9 -2.15)
+		(end 3.91 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b62f53d-d2b6-4311-aedf-17099af9499f")
+	)
+	(fp_line
+		(start 3.91 2.15)
+		(end -3.8 2.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abcefb54-eefe-482e-871c-b9ad2d088d99")
+	)
+	(pad "" smd roundrect
+		(at -2.7 -0.65)
+		(size 1.8 0.82)
+		(layers "Dwgs.User")
+		(roundrect_rratio 0.25)
+		(uuid "e3fe9e0e-5f67-4c83-a022-155161934f3e")
+	)
+	(pad "" smd rect
+		(at -2.7 0.71)
+		(size 1.8 0.82)
+		(layers "Dwgs.User")
+		(uuid "7b456cc0-cd80-406e-aacc-a3b7a1370e47")
+	)
+	(pad "" smd roundrect
+		(at 2.8 -0.65)
+		(size 1.8 0.82)
+		(layers "Dwgs.User")
+		(roundrect_rratio 0.25)
+		(uuid "2de66033-759c-4679-8036-a438d374349f")
+	)
+	(pad "" smd roundrect
+		(at 2.8 0.71)
+		(size 1.8 0.82)
+		(layers "Dwgs.User")
+		(roundrect_rratio 0.25)
+		(uuid "d4463358-769f-4a52-b3f9-66b6be868d8d")
+	)
+)

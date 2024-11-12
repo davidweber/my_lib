@@ -1,0 +1,156 @@
+(footprint "Photodiode_5mm_Radial"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://optoelectronics.liteon.com/upload/download/DS20-2000-343/1CHKxKNN.pdf")
+	(property "Reference" "REF**"
+		(at 1.23 -4.02 0)
+		(layer "F.SilkS")
+		(uuid "f372ee12-6ea1-4be9-8fc6-8ebf5e860658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Photodiode_5mm_Radial"
+		(at 1.29 4.63 0)
+		(layer "F.Fab")
+		(uuid "352f39a5-a387-45fd-941d-8d73a9aa2114")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9957c6fd-d125-41f0-a433-bf701ec3794a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ad53b74-0cc0-441b-b106-db90eccd0580")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0afe99d3-b463-4204-a4dd-7d5dd69877c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.34 1.6)
+		(end -1.34 -1.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4866a434-6b3f-4f31-81e2-3d38fb9124c5")
+	)
+	(fp_arc
+		(start -1.34 -1.61)
+		(mid 4.336626 0.001638)
+		(end -1.341718 1.607211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fe2fb1c-5209-4e8d-93a0-eb1617885792")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 4.57 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e89f28f8-1cff-476d-b031-20edba39e9ac")
+	)
+	(fp_line
+		(start -1.23 -1.58)
+		(end -1.23 1.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f9af819-e52f-4062-b1ee-a65c24922343")
+	)
+	(fp_line
+		(start 4.22 -0.01)
+		(end 4.22 -0.01)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de0fbf5e-df5f-4402-a1dd-7ecf596de222")
+	)
+	(fp_arc
+		(start -1.23 -1.58)
+		(mid 4.227431 0)
+		(end -1.23 1.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aab2f39c-2c69-47c3-aed9-dae6a92cd451")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.26 0.01 0)
+		(layer "F.Fab")
+		(uuid "721c1471-87b8-4072-92f3-9bea468ccd6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "daa6b010-4849-47bd-a002-68f114babbb2")
+	)
+	(pad "K" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7890e0b4-18fa-4f9e-bb2f-538340b354b4")
+	)
+)

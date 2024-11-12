@@ -1,0 +1,192 @@
+(footprint "AVR_PROG_2.54_SMT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AVR Programmer 6 pogo pin 2.54 mm spacing")
+	(property "Reference" "REF**"
+		(at -4.64 0 90)
+		(layer "F.SilkS")
+		(uuid "63059792-3b18-4455-8a00-5b6dbda0ebf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AVR_PROG_2.54_SMT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4ebbdf22-01c8-4f26-902f-79b6423aeb77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eb8ede7-813a-4680-a413-9cdd55da4fe7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83474d22-8e86-4bf4-ba0c-7a2e25e8421e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7edb0ff3-0c64-4c85-8e42-10425ae19399")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.64 -2.37)
+		(end -3.64 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41a14d85-026f-4138-9580-b98961c3c68e")
+	)
+	(fp_line
+		(start -3.64 1.5)
+		(end -2.75 2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28980b9d-3276-4ea8-a6dc-964ab3b93860")
+	)
+	(fp_line
+		(start -2.75 2.37)
+		(end 3.64 2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d335f2e2-0512-43c5-a7a0-462afabb3f3b")
+	)
+	(fp_line
+		(start 3.64 -2.37)
+		(end -3.64 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d6aa1f3-05b0-4864-b7c6-8cb37643a8b8")
+	)
+	(fp_line
+		(start 3.64 2.37)
+		(end 3.64 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "211fc3e6-bd25-44cf-8ae9-a188f6b76cbe")
+	)
+	(fp_line
+		(start -3.39 -2.12)
+		(end 3.39 -2.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "069ccf17-241b-4bf0-943c-95d53cceb0d5")
+	)
+	(fp_line
+		(start -3.39 2.12)
+		(end -3.39 -2.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b5bd6dd-b50e-4534-8ea8-ac6168bff3d9")
+	)
+	(fp_line
+		(start 3.39 -2.12)
+		(end 3.39 2.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3241500-e5f3-41ff-b9e4-4b9f5f299e21")
+	)
+	(fp_line
+		(start 3.39 2.12)
+		(end -3.39 2.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c92376de-fdc9-48b0-ab13-294976cf7c7a")
+	)
+	(pad "1" smd circle
+		(at -2.54 1.27)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "45e99f26-050f-4cd5-9729-e37a513db857")
+	)
+	(pad "2" smd circle
+		(at -2.54 -1.27)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a2891b50-c020-4a2b-8db3-4376fedd5afb")
+	)
+	(pad "3" smd circle
+		(at 0 1.27)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "546bd846-d88b-411f-9666-9834dda77ff5")
+	)
+	(pad "4" smd circle
+		(at 0 -1.27)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "860961d9-85d1-4e37-b04e-8a3320e99d9b")
+	)
+	(pad "5" smd circle
+		(at 2.54 1.27)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ffa3088e-b5d4-4bd6-87d0-4b5a9d683357")
+	)
+	(pad "6" smd circle
+		(at 2.54 -1.27)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "affa0a8f-0380-456f-b819-d4ca343f71ed")
+	)
+)

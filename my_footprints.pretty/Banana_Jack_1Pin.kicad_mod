@@ -1,0 +1,141 @@
+(footprint "Banana_Jack_1Pin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Single banana socket, footprint - 6mm drill")
+	(tags "banana socket")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "fbb56457-27ee-4a84-bcdf-5c35ff6ff43c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Banana_Jack_1Pin"
+		(at -0.25 6.5 0)
+		(layer "F.Fab")
+		(uuid "d0f3457b-35d6-42f8-a84e-88214fb5045f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d446909-69a3-49a0-969c-968acf81fb0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1367df34-1dc9-4961-ae11-3bff28406450")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ad444db-60c4-4725-a0ec-a7815b70f85f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3a8cef01-aab0-4cfe-9a57-068275609508")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8c307040-6be0-4de2-8a23-c58cabf490d2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d173577c-3782-430a-b0f3-49ac5c35776f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d178723b-b88c-4c4d-b367-1bf2b62f5a77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "23901bec-dcfb-4473-96e4-a072e18fdf34")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10.16 10.16)
+		(drill 6.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea48ce64-d61a-499a-8178-a5efdbcee7d3")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/banana-jack-red.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

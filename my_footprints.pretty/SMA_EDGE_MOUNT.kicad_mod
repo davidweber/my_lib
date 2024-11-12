@@ -1,0 +1,183 @@
+(footprint "SMA_EDGE_MOUNT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf")
+	(tags "SMA")
+	(property "Reference" "J5"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "ad954738-afd2-4038-a245-c9d0c4afe7b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA"
+		(at 0 -4.8 0)
+		(layer "F.Fab")
+		(uuid "a9a906cf-58b0-463d-90e5-b9d88cab5569")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e12c0aa4-f7ea-434e-a4e9-e0799b907596")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc988702-226f-4745-9ac6-fe2cdeb107b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d20f280-dacb-4b47-847b-2e68d4ef7358")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 -3.75)
+		(end 2.2 -3.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8a7db87-f291-493d-9d09-27d09525ba24")
+	)
+	(fp_line
+		(start -2.25 3.75)
+		(end -2.25 -3.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9fc6d4c-44c9-419c-88b6-1d9d27ff4000")
+	)
+	(fp_line
+		(start 2.2 -3.75)
+		(end 2.2 3.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9c7ce86-8ccf-4719-9697-28ee1fa8a379")
+	)
+	(fp_line
+		(start 2.2 3.75)
+		(end -2.25 3.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eea459a4-3935-43d2-8786-46f672439b8a")
+	)
+	(fp_line
+		(start 2.338 0)
+		(end 3.338 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e385e25-f48a-4201-8d0a-0816c379eaab")
+	)
+	(fp_line
+		(start 3.338 0.75)
+		(end 2.338 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b034cfc-39d7-4114-91e9-c3c0cdfc08fc")
+	)
+	(fp_text user "PCB Edge"
+		(at 3.81 0 90)
+		(layer "Dwgs.User")
+		(uuid "666459c3-5938-4568-85df-fb81d495b3e0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.2 0 90)
+		(size 1.27 3.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8298e38c-77c7-4ea5-bc00-9436943d26f2")
+	)
+	(pad "2" smd rect
+		(at 0 -2.825 90)
+		(size 1.35 4.2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "23081404-e710-47a8-aa81-743fa6aad469")
+	)
+	(pad "2" smd rect
+		(at 0 -2.825 90)
+		(size 1.35 4.2)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(uuid "1f652e2d-9a97-49d7-9bb9-ad892ab68892")
+	)
+	(pad "2" smd rect
+		(at 0 2.825 90)
+		(size 1.35 4.2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "17b0fe94-522c-4e96-bd44-b3e101e51d34")
+	)
+	(pad "2" smd rect
+		(at 0 2.825 90)
+		(size 1.35 4.2)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(uuid "aac0bbd6-f580-4e69-be95-5727a514f913")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/SMA_CONN_EDGE_MOUNT.step"
+		(offset
+			(xyz 4 -3.2 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -180 -90)
+		)
+	)
+)

@@ -1,0 +1,98 @@
+(footprint "board-title"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6 -1.4 0)
+		(layer "F.Fab")
+		(uuid "2c1d8fd5-6dc3-4f0f-a2aa-c63cd1b58803")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Board Title"
+		(at 0.4 -1.5 0)
+		(layer "F.Fab")
+		(uuid "babdfcee-0f96-49c5-b162-5ce1bbfcb26e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f105932-2650-4d7b-9269-17a1474b5765")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "437fc7f0-01ad-414a-8fdb-14ab1e9bfd16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d41915ec-3cc7-44be-931d-42a1616ef495")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "Name Of Board"
+		(at 0.5 0.1 0)
+		(layer "F.SilkS")
+		(uuid "47c34b53-4725-4986-9ff3-3431544fd0c8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "Rev 0"
+		(at 7 1.6 0)
+		(layer "F.SilkS")
+		(uuid "82e93f2e-be18-40bf-b041-723c18badfa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "YYYY-MM-DD"
+		(at -2.8 1.6 0)
+		(layer "F.Mask")
+		(uuid "8b7eadcf-a917-42dd-b9a3-8fa35a8d9e70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

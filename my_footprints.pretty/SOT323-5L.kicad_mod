@@ -1,0 +1,231 @@
+(footprint "SOT323-5L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.369999 -1.771105 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8eaa97ef-311b-42ad-8df2-a26123b3c79d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "ESDALC6V1W5"
+		(at 0 0.949999 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "619aacdd-5b49-46aa-9f73-976b9474e2ad")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "my_footprints:SOT323-5L"
+		(at 0 0 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f985072-6818-4965-b37e-5688e1de3077")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3bfeec-5459-4034-aa21-50b657ed4188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 360)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "246b6823-6991-4d5c-97ce-784242a89de8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "STMicroelectronics"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b57e780c-0678-44b9-b9c3-1135214b3921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n- Clamp - Ipp Tvs Diode Surface Mount SOT-323-5\n"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acdeb175-fe55-402b-a3b3-9a4fe7bf181b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOT-323 STMicroelectronics"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d423ca-45fa-454f-8229-544b68731efd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "409d0994-f75c-4945-aa7f-075724ed73d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESDALC6V1W5/STMicroelectronics/view-part/?ref=snap"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "840ff761-034a-4860-ad72-25ccf7a153ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "ESDALC6V1W5"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6620413-d096-498f-bd13-50c704281d18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=453274&manufacturer=STMicroelectronics&part_name=ESDALC6V1W5&search_term=esdalc6v1w5"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77ee3ccc-c089-4cbf-b401-d9801f46611b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94cad350-e26d-4136-b511-62482adabf51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/ESDALC6V1W5/STMicroelectronics/view-part/?ref=eda"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e1474da-36ce-474b-b811-0263370c3df7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at 0.65 0 180)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b4dcd8ef-e4bd-4f42-a36a-6ec15d6bdbf8")
+	)
+	(pad "2" smd rect
+		(at 0 0 180)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "32eab78d-eb84-48dc-aeb6-d04bb4746a43")
+	)
+	(pad "3" smd rect
+		(at -0.65 0 180)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "db195d2d-b7e3-4f6a-9a23-1592756e4f57")
+	)
+	(pad "4" smd rect
+		(at -0.65 1.9 180)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2bd2e2a3-c846-4cd2-86a4-9f7c47a7ee62")
+	)
+	(pad "5" smd rect
+		(at 0.65 1.9 180)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "28de4739-0d6c-456f-adc6-5f194f33b64f")
+	)
+	(model "/home/weber/kicad/my_lib/my_3dmodels/ESDALC6V1W5.step"
+		(offset
+			(xyz 0 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

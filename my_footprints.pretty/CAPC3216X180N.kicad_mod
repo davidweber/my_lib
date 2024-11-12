@@ -1,0 +1,190 @@
+(footprint "CAPC3216X180N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.06 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "8eb2e3c1-20d2-4f07-ba44-34e0957c5b49")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC3216X180N"
+		(at 0.94 1.5 0)
+		(layer "F.Fab")
+		(uuid "e4953a5b-a231-4739-b765-44d20dc82ef2")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b7b083e-ff5f-45ba-ae53-b781449a9293")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "652724bd-6e2a-4085-8af1-5d36703e679f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8e0f86b-136c-4ef3-be0a-5d0187ae3cdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.29 -0.9)
+		(end 0.29 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df0475ab-3e14-4aeb-8649-aa31c3cae6a4")
+	)
+	(fp_line
+		(start -0.29 0.9)
+		(end 0.29 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb795a81-9bca-4717-a1a0-a4c194594a90")
+	)
+	(fp_line
+		(start -2.308 -1.158)
+		(end 2.308 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0033d4e-e3aa-4e66-94e8-217363d61d33")
+	)
+	(fp_line
+		(start -2.308 1.158)
+		(end -2.308 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53cb5964-883c-4c8c-b76a-88f5beffc2c0")
+	)
+	(fp_line
+		(start -2.308 1.158)
+		(end 2.308 1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9488aa5d-3038-464b-a162-e3299ce59bef")
+	)
+	(fp_line
+		(start 2.308 1.158)
+		(end 2.308 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69dcf020-82f0-4a01-8dda-ad16e0ead2c8")
+	)
+	(fp_line
+		(start -1.7 0.9)
+		(end -1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bc7beda-d57d-49ed-92fc-be9cc9439a5f")
+	)
+	(fp_line
+		(start 1.7 -0.9)
+		(end -1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2a1b65a-e630-4595-97e8-63e133328020")
+	)
+	(fp_line
+		(start 1.7 0.9)
+		(end -1.7 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a462d1c-6836-4802-af15-c90ec08c0e8d")
+	)
+	(fp_line
+		(start 1.7 0.9)
+		(end 1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "328693d7-864f-4f04-acec-893213ba3b5b")
+	)
+	(pad "1" smd rect
+		(at -1.336 0)
+		(size 1.44 1.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a074eee4-fb6d-40a4-a3f4-ff02c8637e2e")
+	)
+	(pad "2" smd rect
+		(at 1.336 0)
+		(size 1.44 1.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f8cfe18e-2f51-48bd-b959-8519f1edc2db")
+	)
+	(model "/home/weber/kicad/my_lib/my_3dmodels/C3216X7R2A104K160AA.step"
+		(offset
+			(xyz 0 -0.9 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

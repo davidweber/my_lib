@@ -1,0 +1,173 @@
+(footprint "Ferrite_Bead_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ferrite bead 0603")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB*"
+		(at 3.542 0.028 0)
+		(layer "F.SilkS")
+		(uuid "dab321a9-175c-4acc-a6fa-918d7fe27064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Ferrite_Bead_0603"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6928522-f8f8-40b8-889b-553a12ea95e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ea55362-45e3-4daf-aadb-6bc34cc5bc60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40c53237-b0d6-4ca7-bc9e-50491c4e977b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93111e51-6593-4802-85ad-4ed229f80fd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.65)
+		(end 0.8 -0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d781876b-3f0a-4702-9c55-4580cd1ff4c2")
+	)
+	(fp_line
+		(start -0.9 0.65)
+		(end 0.8 0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53ee5546-3f8d-4b85-8425-72997a113f3a")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "39511fa8-f701-4435-bf7e-a29bd9b48e34")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fd2bb2ed-9f5f-4a5c-ad0d-61d629d3588b")
+	)
+	(fp_line
+		(start -1.475 -0.75)
+		(end 1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4744a54d-39aa-4a3b-b8eb-1d127282b69e")
+	)
+	(fp_line
+		(start -1.475 0.75)
+		(end -1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7143a52f-367e-401d-8997-98897a1849c7")
+	)
+	(fp_line
+		(start 1.475 -0.75)
+		(end 1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3803790-65b2-4052-8635-0bb215826c0b")
+	)
+	(fp_line
+		(start 1.475 0.75)
+		(end -1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8620562e-5293-4c96-8375-f2d69e7de899")
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0)
+		(size 0.85 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "a572389d-8833-475a-9bc6-96e37eb36d4c")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0)
+		(size 0.85 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "c62ead8c-c254-426e-9fec-9b30411feae5")
+	)
+	(model "${KIPRJMOD}/../..//3dmodels/BLM18PG121SZ1D.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,153 @@
+(footprint "LED_0606_E6C0606RGBC3UDA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0606 RGB Led suits https://datasheet.lcsc.com/szlcsc/1912111437_EKINGLUX-E6C0606RGBC3UDA_C375569.pdf")
+	(property "Reference" "REF**"
+		(at -2.225 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e41806a-8789-414d-9145-edc236aef1ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0606LED - E6C0606RGBC3UDA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9c72e1e2-d744-4a3e-9057-5d9be142c0c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a302379-5a06-472a-a82b-b8457a00c903")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6b6d13f-7bae-4d18-b254-66cb755576f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98f1ddd4-b742-4928-af23-45a51fcdc181")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 1.2 0)
+		(end 1.3 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "eab12ce0-d24f-46c8-859b-7f9bbc30dd4f")
+	)
+	(fp_line
+		(start -0.98 -1.45)
+		(end 0.98 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e2b4492-b00e-4e95-a250-8e7443f21e62")
+	)
+	(fp_line
+		(start -0.98 1.45)
+		(end -0.98 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02da1fe7-9a34-4635-a12b-2ca0974f00c3")
+	)
+	(fp_line
+		(start 0.98 -1.45)
+		(end 0.98 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf02fe5d-c90b-4213-b0da-24e9f5e28eda")
+	)
+	(fp_line
+		(start 0.98 1.45)
+		(end -0.98 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9489b68f-cd23-4f92-9385-3bd86e2a4163")
+	)
+	(pad "1" smd rect
+		(at -0.45 -0.8)
+		(size 0.55 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4fcbfcb4-e8a8-4da9-8b8e-41edc819ab14")
+	)
+	(pad "2" smd rect
+		(at 0.45 -0.8)
+		(size 0.55 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7d9680d6-ec05-4a6a-ae76-db89bde92159")
+	)
+	(pad "3" smd rect
+		(at -0.45 0.8)
+		(size 0.55 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24762d6f-a17f-4224-92a4-0f021f23e486")
+	)
+	(pad "4" smd rect
+		(at 0.45 0.8)
+		(size 0.55 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d63a15d-97c7-49cc-ad78-dd3fb3bf214d")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/0606LED.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

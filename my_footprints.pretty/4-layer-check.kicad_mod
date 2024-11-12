@@ -1,0 +1,135 @@
+(footprint "4-layer-check"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "d5fe4487-e18c-46ce-9fd6-95d3ccef1c5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4LayerCheck"
+		(at 0 1.7 0)
+		(layer "F.Fab")
+		(uuid "c8c6b19e-582a-4dd8-a0d0-af7fba970616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d59ca01-c802-4a1c-9418-c85e1a2d47f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a29a0325-1a97-400d-92cc-e44e6400a01e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "316c8e07-998c-4c7d-8b59-14bbed2d0298")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -3.25 -1.25) (xy 2.75 -1.25) (xy 2.75 1) (xy -3.25 1)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "5c8356d2-f064-4da8-8431-1f4fa260f4a4")
+	)
+	(fp_poly
+		(pts
+			(xy -3.25 -1.25) (xy 2.75 -1.25) (xy 2.75 1) (xy -3.25 1)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "c028bfba-17c5-4cd4-b308-ee963807add2")
+	)
+	(fp_text user "1"
+		(at -2.5 0 0)
+		(layer "F.Cu")
+		(uuid "86ddc954-fbef-468e-854d-4f939294a5de")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at -1 0 0)
+		(layer "In1.Cu")
+		(uuid "983dc94e-e5d7-43c1-b4f4-3144862b636c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 0.5 0 0)
+		(layer "In2.Cu")
+		(uuid "6721f783-e7ac-4464-83e6-1b0ea45a402c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "4"
+		(at 2 0 0)
+		(layer "B.Cu")
+		(uuid "17ab0c75-41a8-4e67-95c5-f07f6a35ed76")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+)

@@ -1,0 +1,273 @@
+(footprint "SK8612-MINI-E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
+	(tags "rotary encoder")
+	(property "Reference" "REF**"
+		(at -2.1 -3.3 0)
+		(layer "F.SilkS")
+		(uuid "e46414a5-70e1-4df6-8a07-4261904e2a67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK8612-MINI-E"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "3aec7691-3667-4f08-a58a-6f21f38bab34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "461b143f-b697-47c4-b79c-dd7680af0ef1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac75ae3f-ffef-4a1a-bc39-2ae6e7171fc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5247e4c4-279f-42ac-92b5-2377e8784eb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3 1.4)
+		(end 3.9 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0a3f2e0d-34b0-4913-961d-9509de452826")
+	)
+	(fp_line
+		(start 3.9 1.4)
+		(end 3.9 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "afb77a72-07d2-427b-9602-a4dbfbddfcf0")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e583aaad-cf12-4db7-afb3-a07ff075904e")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "13745eee-ced9-4b92-8ff1-bb576b3f3b41")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "55b920aa-8ebe-4cc7-93cb-3f0aaf4bdd02")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "608b4acd-dda9-49b1-9c7f-e3b73ffbed0a")
+	)
+	(fp_line
+		(start -4.1 -2.5)
+		(end -4.1 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73df2f06-35ff-4b1c-bad6-dce2f53b8881")
+	)
+	(fp_line
+		(start -4.1 -2.5)
+		(end 4.2 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fd0c9d1-6b77-4857-9e83-dc0678e2efdb")
+	)
+	(fp_line
+		(start 4.2 2.4)
+		(end -4.1 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a82527b8-22b6-49f9-bd76-132786e577ce")
+	)
+	(fp_line
+		(start 4.2 2.4)
+		(end 4.2 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccc8c8d3-976b-46c2-b932-a5678b6aa6d1")
+	)
+	(fp_line
+		(start -3.9 -2.3)
+		(end -3.9 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74b2de80-1ccd-406a-a45e-8b735ef66862")
+	)
+	(fp_line
+		(start -3.9 -2.3)
+		(end 4 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3eb4fe95-20f8-4f2c-9fd2-b7e097e2b49f")
+	)
+	(fp_line
+		(start 4 2.2)
+		(end -3.9 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbf7219d-4e08-45b5-8606-4adf6693f3d8")
+	)
+	(fp_line
+		(start 4 2.2)
+		(end 4 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2968ccac-5322-48a4-941e-dda7848d8510")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 -1.3)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6c1ab213-f00d-47d3-b968-2ac2b0546703")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 1.3)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e4810f2a-0d9b-4fdd-938b-e2d750932e0c")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 -1.3)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "01e8a122-d3d0-43c2-99e6-ffd498c95950")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 1.3)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3d11a9a0-29d9-45bd-ae14-9c5aa92d3443")
+	)
+	(pad "1" smd roundrect
+		(at -2.7 -0.7)
+		(size 1.55 0.81)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5825bbfd-2cf4-4e58-b01b-e8fef3b84803")
+	)
+	(pad "2" smd roundrect
+		(at -2.7 0.66)
+		(size 1.55 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "adcc57c9-5e68-40b0-b80d-2bbeb02ca6be")
+	)
+	(pad "3" smd oval
+		(at 2.8 0.66)
+		(size 1.55 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "e5eb3a36-676b-4cbc-b3de-23bb574e2332")
+	)
+	(pad "4" smd roundrect
+		(at 2.8 -0.7)
+		(size 1.55 0.81)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c9b916d6-8654-45e4-99bb-5db781f0aba4")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/3228_reverse_mount_led.step"
+		(offset
+			(xyz -1.6 1.425 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

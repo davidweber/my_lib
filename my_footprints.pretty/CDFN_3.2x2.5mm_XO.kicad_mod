@@ -1,0 +1,199 @@
+(footprint "CDFN_3.2x2.5mm_XO"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Oscilator suits Microchip DSC 6xxx series")
+	(property "Reference" "REF**"
+		(at -2.95 0 90)
+		(layer "F.SilkS")
+		(uuid "8ea9b56c-a284-4ed5-9371-2e8d07aa1e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CDFN_3.2x2.5mm_XO"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f868db67-c07a-4248-9979-afae13ac4a8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe4d2c01-b236-422f-80bf-d7cbb804a73e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79f77744-409c-4fa6-abbd-3bd91bb03abf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee302153-510e-4818-8e24-f23fa10b5211")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.8)
+		(end 1.7 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b13149aa-81ed-4f20-9999-f69446ed428d")
+	)
+	(fp_line
+		(start -1.7 1.3)
+		(end -1.7 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0458132d-995d-4681-b934-489680264e04")
+	)
+	(fp_line
+		(start -1.3 1.8)
+		(end -1.7 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f31633c-65df-424b-9ef5-cf53514b9f64")
+	)
+	(fp_line
+		(start 1.7 -1.8)
+		(end 1.7 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9abfc7e0-6bc1-4ea9-af14-2318445b09c4")
+	)
+	(fp_line
+		(start 1.7 1.8)
+		(end -1.3 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16a04bdb-dff4-401e-9b7e-f7813934b998")
+	)
+	(fp_line
+		(start -1.7 -1.75)
+		(end 1.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a39742f4-a461-4946-8bae-b59d387e58f5")
+	)
+	(fp_line
+		(start -1.7 1.75)
+		(end -1.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d32c788e-a1dc-4bae-9ca5-9b6acbe13cf8")
+	)
+	(fp_line
+		(start 1.7 -1.75)
+		(end 1.7 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1255b032-3b4a-42f7-afa1-2c9a91679c04")
+	)
+	(fp_line
+		(start 1.7 1.75)
+		(end -1.7 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccbfd852-c277-4b1d-8968-0ce4fa21be91")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 1.05)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin_ratio -0.1)
+		(uuid "ffcb0a52-5b68-4f74-940e-1e95143be594")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 1.05)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin_ratio -0.1)
+		(uuid "9025c40b-0acc-418e-b038-78e494d9d0d9")
+	)
+	(pad "3" smd roundrect
+		(at 0.95 -1.05)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin_ratio -0.1)
+		(uuid "4d121944-bb9b-4449-9140-ebab9465821c")
+	)
+	(pad "4" smd roundrect
+		(at -0.95 -1.05)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin_ratio -0.1)
+		(uuid "13e9c859-35d4-4ba2-8c19-0151a50b8ea6")
+	)
+	(model "${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

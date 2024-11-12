@@ -1,0 +1,171 @@
+(footprint "LED_RGB_WP154A4SUREQBFZGC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "13b6235f-0450-4a81-8e44-3b92f33850c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_RGB_WP154A4SUREQBFZGC"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "29c77870-f4e6-4ce4-9f64-d6713edf7a6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aee1f6d0-2812-4616-8ba6-891c4d69bb3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0b22541-9c79-4587-980e-ee4fb6ccc87e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d502b0f-76cb-4d95-950e-987f02e7d404")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.1 -0.4)
+		(end -3.1 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30580870-b45f-413d-894e-c2217be95013")
+	)
+	(fp_line
+		(start -0.4 -3.1)
+		(end 0.4 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6f8c282-be48-4a96-8e13-1f2c4ca6d52b")
+	)
+	(fp_line
+		(start -0.4 3.1)
+		(end 0.3 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebd5c365-1b9e-4a0b-b5f2-c33737b3c400")
+	)
+	(fp_line
+		(start 3.1 0.3)
+		(end 3.1 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6897e9a-ba2d-4f29-af27-4cbcb3af709a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "96670ea2-bbd7-473a-8062-bdb40d6adc66")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "35a5a41f-b5c1-4719-8069-44006cd2087a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 -1.25 0)
+		(layer "F.Fab")
+		(uuid "71b6e020-9588-472a-bc3d-b739a5bb7056")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.905 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e84a6db6-eda2-4b77-83fd-b326b451b72c")
+	)
+	(pad "2" thru_hole circle
+		(at -0.635 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9d8103c-9e74-4fa0-a174-507a355ca437")
+	)
+	(pad "3" thru_hole circle
+		(at 0.635 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "671f2478-877a-4dc2-b571-b01b050f5cd0")
+	)
+	(pad "4" thru_hole circle
+		(at 1.905 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79162d93-ae71-4068-b520-7d99223515b3")
+	)
+)

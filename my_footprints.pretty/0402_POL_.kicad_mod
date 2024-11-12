@@ -1,0 +1,308 @@
+(footprint "0402_POL_"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.391135 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2eda1e85-d656-4b79-9c0d-8466cffe6fcd")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "LTST-C281KRKT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "313e27c8-355c-4afe-acce-186437baef42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "my_footprints:0402_POL_"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe43078-e820-4390-91e2-053e0afb569e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa1c249d-f30a-4622-9c58-23af43da819b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2c1ee70-e932-4f83-b483-f173e67b0624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Lite-On"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da0f4734-f8ba-40a5-a041-a71c91e97bb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\nRed 631nm LED Indication - Discrete 2V 0402 (1005 Metric)\n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7ed0d88-e43f-4cec-8f48-6f3d14263550")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "0402 Lite-On"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "122b8f2d-485c-499d-afba-cd4816f49f0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12e49268-67d4-48ef-a979-a0e5162bc939")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C281KRKT/Lite-On/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e152f6f4-1266-45e3-9fb4-88be66c396cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "LTST-C281KRKT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93acea5c-6064-41bf-81bc-a96ec0968e70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=266130&manufacturer=Lite-On&part_name=LTST-C281KRKT&search_term=ltst-c281krkt"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db372b3e-30e0-4657-bfd0-e669b29b9e06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbdda8e0-c074-4415-accd-587ccfa1b17c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/LTST-C281KRKT/Lite-On/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0d9cde9-0685-47f3-b833-fc950c994044")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.633731 -0.29845) (xy -0.233681 -0.29845) (xy -0.233681 0.299719) (xy -0.633731 0.299719)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "c496073d-dfc0-4efe-9002-aef019beeaaa")
+	)
+	(fp_poly
+		(pts
+			(xy 0.23495 -0.300991) (xy 0.633731 -0.300991) (xy 0.633731 0.29845) (xy 0.23495 0.29845)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "e432ea90-d47b-4c9d-85fd-e54bf133d21a")
+	)
+	(fp_line
+		(start -1.016 -0.508)
+		(end -1.016 0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4251b7f5-6f38-4a86-8c4c-20c08c81905b")
+	)
+	(fp_line
+		(start -1.016 0.508)
+		(end -0.889 0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0da701d5-e412-440a-a6b8-1bd0009bd154")
+	)
+	(fp_line
+		(start -0.889 -0.508)
+		(end -1.016 -0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca87504e-b992-43cd-9afa-a4f7e4bef5f9")
+	)
+	(fp_line
+		(start -0.889 -0.508)
+		(end -0.889 0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29f071b4-eff9-41e5-9f21-f9a0a6c26787")
+	)
+	(fp_line
+		(start -0.889 0.508)
+		(end -0.254 0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aac65366-7869-4463-9182-bc720a05bbea")
+	)
+	(fp_line
+		(start -0.254 -0.508)
+		(end -0.889 -0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21ca8d18-536d-4e26-906f-42a9506440f3")
+	)
+	(fp_line
+		(start 0.45 -0.5)
+		(end 0.45 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71becf19-c22d-4ac5-8382-ae90c1fd6d4f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1999 -0.4001) (xy 0.1999 -0.4001) (xy 0.1999 0.4001) (xy -0.1999 0.4001)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "1dc23394-ded0-4cda-bc4c-12a648bb48a3")
+	)
+	(pad "1" smd rect
+		(at -0.43485 0)
+		(size 0.3992 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "49646f72-1411-422f-a9cc-f21a1648ba38")
+	)
+	(pad "2" smd rect
+		(at 0.43485 0)
+		(size 0.3992 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "de2c9a5b-70a1-449a-a726-568f1ea4b007")
+	)
+)

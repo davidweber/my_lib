@@ -1,0 +1,187 @@
+(footprint "RF_SMA_BoardEdge_142-0701-801"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://belfuse.com/resources/Johnson/productinformation/pi-142-0701-801.pdf")
+	(property "Reference" "REF**"
+		(at -6.59 2.65 90)
+		(layer "F.SilkS")
+		(uuid "8808a673-ee55-435c-a68d-509aac27deff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RF_SMA_BoardEdge_142-0701-801"
+		(at 0 6.36 0)
+		(layer "F.Fab")
+		(uuid "474ebb47-e196-4f6c-913e-ec78963a4c60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f09b8088-570c-4061-8c1b-eb9ea820352c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f028027-26c9-44a4-b4e1-ecc657cd848b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c311a59-978a-4284-a5fe-5f70bfd1c4e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.84 0)
+		(end -5.84 5.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad52d097-6db7-409f-825e-748f1ce2df06")
+	)
+	(fp_line
+		(start -5.84 0)
+		(end 5.84 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b222f473-deb0-4ebf-afac-a4b917b757c7")
+	)
+	(fp_line
+		(start -5.84 5.33)
+		(end 5.84 5.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2cc58f6-198a-4cf6-b8a5-9bdf50113951")
+	)
+	(fp_line
+		(start 5.84 0)
+		(end 5.84 5.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6d2369c-15ca-4929-91db-d7ecc555a55e")
+	)
+	(fp_line
+		(start -4.76 4.75)
+		(end -4.76 -9.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43b1e82d-1f74-44c8-b0ca-ebc32f011e01")
+	)
+	(fp_line
+		(start 4.76 -9.52)
+		(end -4.76 -9.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73b0241f-655e-43ea-9d02-3f89601a1fc6")
+	)
+	(fp_line
+		(start 4.76 4.75)
+		(end -4.76 4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3394a4b-cb39-4462-8fcf-80da9c7a7b7c")
+	)
+	(fp_line
+		(start 4.76 4.75)
+		(end 4.76 -9.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "922bc1a2-fd13-40e4-b80e-3ac4eac36008")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.7 0)
+		(layer "F.Fab")
+		(uuid "d8e2ca82-e044-4870-9a45-1a19ede5046b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 2.54)
+		(size 2.286 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "220841aa-aa1a-41cb-9a39-4f05c2226a2b")
+	)
+	(pad "2" smd rect
+		(at -4.3815 2.54)
+		(size 2.413 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cc699340-8fe9-44d8-87ce-78873a249937")
+	)
+	(pad "2" smd rect
+		(at -4.3815 2.54)
+		(size 2.413 5.08)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "6566f142-0f24-4873-943a-0f6bc9b8f3bb")
+	)
+	(pad "2" smd rect
+		(at 4.3815 2.54)
+		(size 2.413 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd6cb052-28c8-47cb-92e0-643f3a19f5ef")
+	)
+	(pad "2" smd rect
+		(at 4.3815 2.54)
+		(size 2.413 5.08)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "01ccb6c4-0744-48d1-98df-dde41d8cfe28")
+	)
+)

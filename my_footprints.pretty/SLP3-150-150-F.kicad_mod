@@ -1,0 +1,223 @@
+(footprint "SLP3-150-150-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Light pipe right angle PLCC4")
+	(property "Reference" "REF**"
+		(at 0.7232 -5.3848 0)
+		(layer "F.SilkS")
+		(uuid "cba2049b-a851-4cb8-8170-563de9eafaf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SLP3-150-150-F"
+		(at 1.4732 -5.8848 0)
+		(layer "F.Fab")
+		(uuid "b1136817-8bba-449f-9383-1cd7c41cf3f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d13e67a-b52d-4ecb-a53e-28a1404008b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3501c834-99b9-47f8-a33d-a30276dd0e11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "943c2780-48c6-4fe8-8765-605dcb0fc05d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.2768 -4.3848)
+		(end -2.2768 6.1152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99c7effe-2dbc-4d6f-8800-676cfb8565f1")
+	)
+	(fp_line
+		(start -2.2768 -4.3848)
+		(end 2.7232 -4.3848)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1edcc753-1e89-45f5-ba7f-5c6479bafd8c")
+	)
+	(fp_line
+		(start 2.7232 -4.3848)
+		(end 2.7232 6.1152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "859f4b54-506f-4f2e-ae07-c59a5fa3c693")
+	)
+	(fp_line
+		(start 2.7232 6.1152)
+		(end -2.2768 6.1152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0e61a7a-038c-4382-9125-b41cb8fe8115")
+	)
+	(fp_line
+		(start -1.9268 -1.8848)
+		(end 2.4232 -1.8848)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9d347c3-124f-48b1-a4d6-6c3d483e037e")
+	)
+	(fp_line
+		(start -1.9268 1.5152)
+		(end -1.9268 -1.8848)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f12d62b4-b8b2-48e9-a083-19e0198d57bc")
+	)
+	(fp_line
+		(start -1.9268 1.5152)
+		(end 2.4332 1.5152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "755073d9-f3df-4e6f-b900-9a4fc84cd47a")
+	)
+	(fp_line
+		(start 0.0732 6.1152)
+		(end -0.1268 6.4152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "012f03df-f3dd-4ec1-b559-bf516657948f")
+	)
+	(fp_line
+		(start 0.0732 6.1152)
+		(end 0.2732 6.4152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13bd75c4-6ec9-40d4-9dda-6ec5f566d8e9")
+	)
+	(fp_line
+		(start 2.2732 6.1152)
+		(end -1.7268 6.1152)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "534fb05b-5951-424c-ae35-9fe698aaee7c")
+	)
+	(fp_line
+		(start 2.4332 -1.8848)
+		(end 2.4332 1.5152)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb2a0d76-be79-4fa5-8091-2bd64b8f3dc3")
+	)
+	(fp_text user "Face of pipe"
+		(at 0.2732 6.9152 0)
+		(layer "F.CrtYd")
+		(uuid "1b146898-176b-4fc3-8ac7-177c7b06440a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Place PLCC4 LED here"
+		(at 0.2332 0.0052 0)
+		(layer "F.Fab")
+		(uuid "748d964b-938a-4c45-9b78-b67a263d0711")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.0668 -2.8848)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "45bc2fea-7e34-4de7-9713-11c75a50e16c")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.4732 -2.8848)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "38867894-dc9c-4f7d-bdf3-34d004d40390")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/Light_Pipe_SLP3-150-150-F.step"
+		(offset
+			(xyz 2.45 4.05 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

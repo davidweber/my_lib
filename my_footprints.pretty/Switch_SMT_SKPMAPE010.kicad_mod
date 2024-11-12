@@ -1,0 +1,138 @@
+(footprint "Switch_SMT_SKPMAPE010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.25 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "e2cd8302-0a53-4037-82de-8eee0489bd43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Switch_SMT_SKPMAPE010"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "749f5188-156f-4335-ad4f-37478267e920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e25c84f-efeb-46b9-a578-01cf3a645ef3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e1bb446-d4e4-4c1b-a881-ff8c24221384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "406ca162-eb1f-49f6-a56b-5b4fa6ffb31b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -3.5)
+		(end 7.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97d37df4-4a1e-450b-a55a-d59979756669")
+	)
+	(fp_line
+		(start -1.5 0)
+		(end -1.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a1f992b-acee-40e4-86da-a0a7a896f269")
+	)
+	(fp_line
+		(start -1.5 3.5)
+		(end -1.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "272fc135-ad18-4a05-85d5-4ccba91a5200")
+	)
+	(fp_line
+		(start 7.5 -3.5)
+		(end 7.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a528b8a-7e78-425b-b759-8e4af4cdbfee")
+	)
+	(fp_line
+		(start 7.5 3.5)
+		(end -1.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b625a5a9-ab35-4a49-acad-8fd5ed139aa1")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c7ff56e-dfc2-4dc7-8216-ef2222db1701")
+	)
+	(pad "2" smd rect
+		(at 6 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fed64fc0-0d6a-40df-9f4d-b843dc5a9db0")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/Switch_SMT_SKPMAPE010.STEP"
+		(offset
+			(xyz 3 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

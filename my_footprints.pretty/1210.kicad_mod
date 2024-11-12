@@ -1,0 +1,189 @@
+(footprint "1210"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.murata-ps.com/data/magnetics/kmp_8200c.pdf")
+	(property "Reference" "REF**"
+		(at 0 -4.69 0)
+		(layer "F.SilkS")
+		(uuid "b0b8c9b2-cae6-4d2b-9277-cfcc3084b484")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1210"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "5c660f00-9f80-4dad-a1e4-41803923613c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3a56c04-4960-4b3b-931d-468cde3276b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a20e69fe-06bb-4254-8b21-50f9904b94f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "276ac545-59ae-4d0b-bf33-e690211b7e62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.34 -1.38)
+		(end 0.31 -1.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6d48f44-6748-4e1e-86bf-1d0b90d793a9")
+	)
+	(fp_line
+		(start -0.34 1.36)
+		(end 0.3 1.36)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8f2c5cb-1d76-40b0-a440-3202d43934cd")
+	)
+	(fp_line
+		(start -2.16 -1.78)
+		(end 2.16 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa055d30-8e2c-4c7b-b4c6-8a3395952177")
+	)
+	(fp_line
+		(start -2.16 1.78)
+		(end -2.16 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85592364-d1e6-4fd4-ba6c-f124e912f869")
+	)
+	(fp_line
+		(start 2.16 -1.78)
+		(end 2.16 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "468696d4-ef31-4626-98e9-2d5fc79ddcf7")
+	)
+	(fp_line
+		(start 2.16 1.78)
+		(end -2.16 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "295da6a4-034e-414d-b9e2-e06338ca3f41")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47e5f908-9c6f-446e-80ce-b6dc435f83b5")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6dd19c3-849f-4458-a4a9-320e04e26dde")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db8c3332-e365-4883-99aa-1ae4c82bb8a7")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "236e2c8d-a72a-4e16-b42f-696088c670b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d958cf8f-1824-4468-9004-3504eefb6b86")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.145 0)
+		(size 1.52 3.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19d9509c-f7cc-43b5-b9ee-0b107fa60240")
+	)
+	(pad "2" smd rect
+		(at 1.145 0)
+		(size 1.52 3.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "17368108-d59c-4a95-ba20-712c813a9578")
+	)
+)

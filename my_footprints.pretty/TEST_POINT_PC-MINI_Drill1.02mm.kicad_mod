@@ -1,0 +1,117 @@
+(footprint "TEST_POINT_PC-MINI_Drill1.02mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.92 0)
+		(layer "F.SilkS")
+		(uuid "f9fd64d7-46b7-42b4-b717-1159b05ab4fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TEST_POINT_PC-MINI_Drill1.02mm"
+		(at 0 4.04 0)
+		(layer "F.Fab")
+		(uuid "1caf4bc1-5b75-4f67-b991-6280c129e7dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd83b597-3031-4a55-851c-40e4ab42a3d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "059229bc-744c-44ab-a64f-2342205f1c89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f47e517a-4e10-4b57-b0f6-610c848484d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.64 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "190dacde-5079-4e8a-af63-5d3f2633288a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.89 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "43fb7d0c-1ace-4564-b355-ccbe0c200ec1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "889ac029-cff0-4ed2-bf6c-3b0851fb5667")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 0 0)
+		(layer "F.Fab")
+		(uuid "8f945502-5a93-40aa-81b3-f01c4806f789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.02 2.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ca3a50e-bae1-4ce1-abf5-a20970e827f1")
+	)
+)

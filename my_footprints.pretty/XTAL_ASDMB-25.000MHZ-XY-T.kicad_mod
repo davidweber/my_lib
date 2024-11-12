@@ -1,0 +1,414 @@
+(footprint "XTAL_ASDMB-25.000MHZ-XY-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.795 0.025 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "19d0aab3-4172-49e5-bf55-edf6b6d760f3")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "ASDMB-25.000MHZ-XY-T"
+		(at 13.335 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5053334c-5f15-4fba-b925-b67ab69d3ff1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "my_footprints:XTAL_ASDMB-25.000MHZ-XY-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6375a2ac-735f-477b-9abb-de18b89b18cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7545884e-9b65-4b13-a522-95ec85d49f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eaa65b1-ff76-4ded-8d7f-7748abc45a23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Abracon LLC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c29e0e3c-fd3b-4db2-9df2-b3732cffc959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c46749e6-64be-416d-86e4-699f915c0203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SMD-4 Abracon LLC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6adf718d-78db-4382-9bbe-656eba2226cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5cbc50f-07a9-49a6-837b-036080d785a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/ASDMB-25.000MHZ-XY-T/Abracon+LLC/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9d3c2ca-2aaf-410b-af05-0187bfe5d61d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "681cd8a2-0f39-45a8-9726-8140965c1afa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "1.4.2021"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fea304e-30fd-446f-9c69-2fd30ea80deb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/ASDMB-25.000MHZ-XY-T/Abracon+LLC/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c81f91f8-4150-493c-a236-c23b72016450")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "ASDMB-25.000MHZ-XY-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dbc4065-6227-477e-9a2f-06d561b67d6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2454593&manufacturer=Abracon LLC&part_name=ASDMB-25.000MHZ-XY-T&search_term=asdmb-25.000mhz-ly-t"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dec10a93-ff07-468e-9b38-9a2f1fc906f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n25 MHz XO (Standard) LVCMOS Oscillator 1.8V ~ 3.3V Standby (Power Down) 4-SMD, No Lead\n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f05d1572-03ea-4284-bedb-947803cf7bf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Abracon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26875bb8-a7fd-4d2a-ad14-fd5b40cc0b05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcb4abc0-a7f4-40be-9323-16d537f69e6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_PN" "ASDMB-25.000MHZ-XY-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0be7c8a-e6e3-41ea-ba3c-7ccc30107a8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.15)
+		(end -1 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90ab3394-8265-4561-b4e5-179d3edc7988")
+	)
+	(fp_line
+		(start 1 0.15)
+		(end 1 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eaf71ccf-734b-4391-abf1-c04b09498e5d")
+	)
+	(fp_circle
+		(center -1.4 -1.4)
+		(end -1.3 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0ff586cf-6759-44b8-9d73-0fde89b2a80c")
+	)
+	(fp_line
+		(start -1.45 -1.5)
+		(end 1.45 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4f34b6d-2768-426d-9b05-164b59459e59")
+	)
+	(fp_line
+		(start -1.45 1.5)
+		(end -1.45 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e46445f-464a-4074-bace-f77be792c057")
+	)
+	(fp_line
+		(start 1.45 -1.5)
+		(end 1.45 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a17a59e3-9c78-4546-bb6c-a0ddff4849a6")
+	)
+	(fp_line
+		(start 1.45 1.5)
+		(end -1.45 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "806ae8e1-b77e-41eb-9971-49720ddaa8ad")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "888e3501-439e-4b45-bed1-efe0f8091cdd")
+	)
+	(fp_line
+		(start -1 1.25)
+		(end -1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3129b6ca-63fb-4cb4-b49a-4358678decea")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8fc4c4e-ad8f-4f45-ba3b-2422cd2c5aa7")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4997c39e-20b4-4ef3-ba6f-2dc99596749a")
+	)
+	(fp_circle
+		(center -1.4 -1.4)
+		(end -1.3 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3a99c4ce-ecaf-4653-8f6c-9bbcc3c996a3")
+	)
+	(pad "1" smd rect
+		(at -0.775 -0.825)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "742f28f7-67fd-4cb9-a1f9-d89a8eb95953")
+	)
+	(pad "2" smd rect
+		(at -0.775 0.825)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2b95c193-0110-4778-b97b-17b32c798c5e")
+	)
+	(pad "3" smd rect
+		(at 0.775 0.825)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8bc2cf99-d74a-4936-8795-1101a59802b3")
+	)
+	(pad "4" smd rect
+		(at 0.775 -0.825)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "30a689c9-3676-456d-89f5-18bb793ac876")
+	)
+	(model "/home/weber/kicad/my_lib/my_3dmodels/ASDMB-25.000MHZ-XY-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

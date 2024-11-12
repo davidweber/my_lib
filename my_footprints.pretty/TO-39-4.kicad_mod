@@ -1,0 +1,201 @@
+(footprint "TO-39-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "file:///C:/Users/alex_wegscheid/Downloads/MLX90614-Datasheet-Melexis%20(2).pdf")
+	(property "Reference" "REF**"
+		(at 2.5 -8.75 0)
+		(layer "F.SilkS")
+		(uuid "83f34b38-11bd-4426-a99c-67fd3ed9a386")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-39-4"
+		(at 2.75 9 0)
+		(layer "F.Fab")
+		(uuid "0ba64e86-6331-4e0d-978c-49bc67f8b3f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158c2966-11ab-45a4-a543-5913aa40f421")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9fcb45a-9cdb-4d64-a4e7-1ef8c48d51d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d557397-f399-4ab3-bd1b-4ba8616418e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.25 -1)
+		(end -4.25 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dea2a24-5b7e-4ae7-bdca-51bf57ed6154")
+	)
+	(fp_line
+		(start 1.75 -6.75)
+		(end 3.25 -6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6f3114f-5ce4-4b5c-8448-459f3d481e62")
+	)
+	(fp_line
+		(start 2 6.75)
+		(end 3.25 6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "257da02a-4563-4dc9-9f5c-f18a8a7e84e5")
+	)
+	(fp_line
+		(start 9.25 -0.75)
+		(end 9.25 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27f863c1-ea74-4cba-a8e7-3f4c3ee7e665")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end -3.5 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9e01cf41-5a4e-45ac-a7ff-4df4bdec2949")
+	)
+	(fp_line
+		(start -3.5 -4.75)
+		(end -2.75 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8ff46f9-3773-49cd-a69a-3d551a547464")
+	)
+	(fp_line
+		(start -3.5 -4.75)
+		(end -2.75 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1eec624-6c1e-435d-af3f-4aeca72b3f05")
+	)
+	(fp_line
+		(start -2.75 -5.5)
+		(end -2.05 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1f2b143-4337-441f-a748-e71a04c40442")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 9.12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "33961e35-8217-4317-ba76-0e80d0adcf43")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.75 -4.5 0)
+		(layer "F.Fab")
+		(uuid "6c74f5fc-2b1c-4c16-bf3d-4ffad284b521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9075b2f8-710f-4430-bc11-5250b0ecebed")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 2.5)
+		(size 1.6 1.6)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bef20ecd-d406-4d18-be8e-e8b571fce0b7")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f6b13b4-73fa-4d90-84a3-68d91a850ea6")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 -2.5)
+		(size 1.6 1.6)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62f1849c-6597-4692-89d8-5a419db3aafc")
+	)
+)

@@ -1,0 +1,162 @@
+(footprint "FV1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "FL3"
+		(at -0.5 -2.85 0)
+		(layer "F.SilkS")
+		(uuid "c0833a0f-cc4e-4a1c-bf7f-de133ff7276b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Filter_LFCN-400D+"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "28f0120b-ea2e-4ccf-85e0-c0bee0ccf964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e96ca35-916d-4128-803b-b5badc44f770")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca0d28d5-e0d6-4cff-959f-08943c77a0da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9366e71a-c501-4068-9b63-06f014207b9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.4 -1.8)
+		(end 2.4 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "012a8ac5-a3ab-4b67-9b30-f4d68518223d")
+	)
+	(fp_line
+		(start -2.4 1.8)
+		(end -2.4 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03649d43-3c77-457a-904d-0a6bd7258d14")
+	)
+	(fp_line
+		(start 2.4 -1.8)
+		(end 2.4 1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ca9f053-4369-4023-8428-04762e3588e1")
+	)
+	(fp_line
+		(start 2.4 1.8)
+		(end -2.4 1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb69b685-7e43-4afc-9778-eef649b710ed")
+	)
+	(pad "1" smd rect
+		(at -1.625 0)
+		(size 1.04 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "a4886a9c-95d5-4564-af82-6ad4563014ad")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.2)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "25dbf743-31ae-473b-b846-13083ec0ce72")
+	)
+	(pad "2" smd rect
+		(at 0 -0.9225)
+		(size 0.61 1.245)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "d913e4ac-2aed-4931-ac77-8e2f314406b2")
+	)
+	(pad "3" smd rect
+		(at 1.625 0)
+		(size 1.04 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "685b9c69-b468-45fb-b562-76249631887f")
+	)
+	(pad "4" smd rect
+		(at 0 0.9225)
+		(size 0.61 1.245)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "deddb9f4-ad2a-489b-90b5-c79303fc4a2a")
+	)
+	(pad "4" thru_hole circle
+		(at 0 1.2)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "667fee3d-c3e2-4d23-8c10-d5afeb462920")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/FV1206.STEP"
+		(offset
+			(xyz -1.6 -0.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,191 @@
+(footprint "ASTXR-12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TCXO 19.2 MHZ")
+	(property "Reference" "XO1"
+		(at 0.13 2.63 180)
+		(layer "F.SilkS")
+		(uuid "cc96bbd6-3d91-4424-b76e-3ba7536a0c65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ASTXR-12-19.200MHz"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "7d27f5b5-105b-4f7e-8356-5b28b3ad4b21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dce586b3-be24-48c7-bb42-988c952a48f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85535068-e9d9-4bbb-ac34-839e60a27ed6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21d206e6-f37c-4e18-8bd2-fb2942cbcf93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.855 -1.615)
+		(end 1.855 -1.615)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b24710c-d915-41bd-b9cb-2e68ed390db0")
+	)
+	(fp_line
+		(start -1.855 0.815)
+		(end -1.855 -1.615)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08666a0a-e2c9-4645-9d22-6fcf50958f59")
+	)
+	(fp_line
+		(start -1.055 1.615)
+		(end -1.855 0.815)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27e9e4a2-e2e0-4eeb-8bab-54266d4517b4")
+	)
+	(fp_line
+		(start 1.855 -1.615)
+		(end 1.855 1.615)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2887648-cca9-4ee4-923d-c7ee20c074fe")
+	)
+	(fp_line
+		(start 1.855 1.615)
+		(end -1.055 1.615)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83fe9d96-81c2-47bc-a189-aa2a8a95b958")
+	)
+	(fp_line
+		(start -2 -1.75)
+		(end 2 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88459777-0371-4d04-b5ea-86a8195afefb")
+	)
+	(fp_line
+		(start -2 1.75)
+		(end -2 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "789478d3-d705-4eaf-bc5d-7e4c48156092")
+	)
+	(fp_line
+		(start 2 -1.75)
+		(end 2 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f329197-8fe8-4f69-8876-37757ba99b8c")
+	)
+	(fp_line
+		(start 2 1.75)
+		(end -2 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4839335a-bc78-4ae4-bb89-0477469241e5")
+	)
+	(pad "1" smd rect
+		(at -1.04 0.695)
+		(size 0.63 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c08d241e-95ae-4fbe-8413-74ae42a3e7df")
+	)
+	(pad "3" smd rect
+		(at 1.04 0.695)
+		(size 0.63 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14b5bb10-d6f2-4a2a-b578-f5706c2c38b4")
+	)
+	(pad "4" smd rect
+		(at 1.04 -0.695)
+		(size 0.63 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "68a0f746-3d63-453e-9d08-b2b155370436")
+	)
+	(pad "6" smd rect
+		(at -1.04 -0.695)
+		(size 0.63 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "54290edf-db53-4d0a-b160-d83b165547fe")
+	)
+	(model "${KIPRJMOD}/../../3dmodels/ASTXR-12-38.400MHz-514054.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

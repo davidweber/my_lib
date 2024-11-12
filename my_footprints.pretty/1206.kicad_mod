@@ -1,0 +1,229 @@
+(footprint "1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
+	(property "Reference" "REF**"
+		(at 0.1 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "5a6e8256-f7bb-4478-90ea-20177a848e73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1206"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "d6c08c24-067c-48fc-a999-8c45a889c82c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf2be625-72a0-446e-9fb7-a784b04b4e52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5012a467-ad5f-4e16-b091-a0f05d9d1878")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fae5b48b-2609-4eec-bbfd-fe98ee325249")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -0.3)
+		(end -2.6 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14143838-b81d-45e2-8e90-7880940c358e")
+	)
+	(fp_line
+		(start 0 -0.9)
+		(end -0.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a21e5f58-92df-43eb-94ab-0a587d9b0bb8")
+	)
+	(fp_line
+		(start 0 -0.9)
+		(end 0.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df2d57fa-e282-46e3-82df-47eb2d60e0ed")
+	)
+	(fp_line
+		(start 0 0.9)
+		(end -0.5 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "305c25ee-f629-4d32-9949-23e3377925c0")
+	)
+	(fp_line
+		(start 0 0.9)
+		(end 0.5 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6125cf2-7c5a-4d6f-bce2-66b3085d4c0b")
+	)
+	(fp_line
+		(start 2.6 -0.3)
+		(end 2.6 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "890a42f4-9c27-4548-8ff9-a7f93eda305f")
+	)
+	(fp_line
+		(start -2.8 -1.15)
+		(end -2.8 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9db0d9f-acfb-48b8-b797-72846c45a237")
+	)
+	(fp_line
+		(start -2.8 1.15)
+		(end 2.8 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4c44941-bf50-46bd-89cf-f22a5c34eb7a")
+	)
+	(fp_line
+		(start 2.8 -1.15)
+		(end -2.8 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc2e3c75-6ebc-488b-9e45-07f509cb7240")
+	)
+	(fp_line
+		(start 2.8 1.15)
+		(end 2.8 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f397397-4434-4fbd-8d9e-c141f99a132d")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f67312ad-3f01-4200-a78b-7537b7c74d73")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33296f67-3c50-4a9a-a121-1e82d5418759")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed8b8cb4-254a-41af-b6d6-e0ec7577e208")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "220aebda-c8a0-4b35-aca2-9b1a5ef9ad7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1ab013f2-fbc7-4adf-84be-83975f06ee7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 1.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dbacbe6c-86fe-4689-943e-b85c023cdea8")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 1.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c573938-d951-4da4-a83c-f6db07ff0778")
+	)
+)
