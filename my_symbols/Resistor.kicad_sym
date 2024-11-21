@@ -129,7 +129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:R_0402_1005Metric"
+		(property "Footprint" "my_footprints:0402"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -232,7 +232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:R_0603_1608Metric"
+		(property "Footprint" "my_footprints:0603"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -335,7 +335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:R_0805_2012Metric"
+		(property "Footprint" "my_footprints:0805"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -438,7 +438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:R_1206_3216Metric"
+		(property "Footprint" "my_footprints:1206"
 			(at 0 1.27 0)
 			(effects
 				(font
