@@ -71,7 +71,7 @@
 		(start -0.3 -0.3)
 		(end 0.3 -0.3)
 		(stroke
-			(width 0.1)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -81,7 +81,7 @@
 		(start -0.3 0.3)
 		(end 0.3 0.3)
 		(stroke
-			(width 0.1)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -91,7 +91,7 @@
 		(start -1.25 0.71)
 		(end -1.25 -0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -101,7 +101,7 @@
 		(start -1.11 -0.71)
 		(end -1.25 -0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -111,7 +111,7 @@
 		(start -1.11 -0.71)
 		(end 1.11 -0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -121,7 +121,7 @@
 		(start -1.11 0.71)
 		(end -1.25 0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -131,7 +131,7 @@
 		(start 1.11 -0.71)
 		(end 1.25 -0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -141,7 +141,7 @@
 		(start 1.11 0.71)
 		(end -1.11 0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -151,7 +151,7 @@
 		(start 1.11 0.71)
 		(end 1.25 0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -161,7 +161,7 @@
 		(start 1.25 -0.71)
 		(end 1.25 0.71)
 		(stroke
-			(width 0.05)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -171,7 +171,7 @@
 		(start -0.8 -0.4)
 		(end -0.8 0.4)
 		(stroke
-			(width 0.1)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -181,7 +181,7 @@
 		(start -0.8 0.4)
 		(end 0.8 0.4)
 		(stroke
-			(width 0.1)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -191,7 +191,7 @@
 		(start 0.8 -0.4)
 		(end -0.8 -0.4)
 		(stroke
-			(width 0.1)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -201,7 +201,7 @@
 		(start 0.8 0.4)
 		(end 0.8 -0.4)
 		(stroke
-			(width 0.1)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.Fab")
