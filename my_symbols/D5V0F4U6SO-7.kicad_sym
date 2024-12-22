@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.508 10.668 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,25 +18,24 @@
 			)
 		)
 		(property "Value" "D5V0F4U6SO-7"
-			(at -0.508 8.128 0)
+			(at -0.254 8.382 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:IC_ZXTD6717E6TA"
-			(at 0 0 0)
+		(property "Footprint" ""
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "D5V0F4U6SO-7"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,12 +45,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "D5V0F4U6SO-7"
