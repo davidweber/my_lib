@@ -344,7 +344,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "bf9b4547-298c-4c73-93ea-84fbd5c4f782")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/MCP601T-I_OT.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/MCP601T-I_OT.step"
 		(offset
 			(xyz 0 0 0)
 		)

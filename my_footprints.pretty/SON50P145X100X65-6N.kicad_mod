@@ -427,7 +427,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "090789f6-63c0-4c3a-8a99-f042d330b873")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/AP2553FDC-7.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/AP2553FDC-7.step"
 		(offset
 			(xyz 0 0 0)
 		)

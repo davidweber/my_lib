@@ -806,7 +806,7 @@
 		(remove_unused_layers no)
 		(uuid "99cfb085-7677-4352-af06-09e47ff49859")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/20021611-00020T4LF.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/20021611-00020T4LF.step"
 		(offset
 			(xyz 0 0 0)
 		)

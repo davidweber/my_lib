@@ -5528,7 +5528,7 @@
 		)
 		(uuid "773e89bb-d718-464b-9596-2f4f153f87a1")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/SAMTEC-LS2-120-01-X-D.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/SAMTEC-LS2-120-01-X-D.step"
 		(offset
 			(xyz 0 0 0)
 		)

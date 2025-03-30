@@ -315,7 +315,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "239316a0-5da4-49c1-84b6-55b09a35b71f")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/SOT26.STEP"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/SOT26.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

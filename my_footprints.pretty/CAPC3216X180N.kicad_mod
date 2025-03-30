@@ -176,7 +176,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "f8cfe18e-2f51-48bd-b959-8519f1edc2db")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/C3216X7R2A104K160AA.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/C3216X7R2A104K160AA.step"
 		(offset
 			(xyz 0 -0.9 0.8)
 		)

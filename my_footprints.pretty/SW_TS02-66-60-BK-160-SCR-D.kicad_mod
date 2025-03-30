@@ -240,7 +240,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "31b6b64d-8516-4cde-b286-670e4445295e")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/CUI_DEVICES_TS02-66-60-BK-160-SCR-D.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/CUI_DEVICES_TS02-66-60-BK-160-SCR-D.step"
 		(offset
 			(xyz 0 0 0)
 		)

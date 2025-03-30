@@ -312,7 +312,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "b7192351-af9e-4278-a0de-57a6d7942e75")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/NX3L4051PW_118.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/NX3L4051PW_118.step"
 		(offset
 			(xyz 0 0 0)
 		)

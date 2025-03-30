@@ -543,7 +543,7 @@
 		(clearance 0.2)
 		(uuid "d9e37bd6-5d43-498b-9a19-d72332396117")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/LAN8742A-CZ-TR.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/LAN8742A-CZ-TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -278,7 +278,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "faa9e67f-8a43-41e1-93e7-80ebec60ec06")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/GCM188L81H104KA57D.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/GCM188L81H104KA57D.step"
 		(offset
 			(xyz 0 -0.45 0.4)
 		)

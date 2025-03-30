@@ -627,7 +627,7 @@
 		)
 		(uuid "98f47d22-7faf-498d-bfaf-d0606b24ff81")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/FTSH-110-01-L-D-K.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/FTSH-110-01-L-D-K.step"
 		(offset
 			(xyz 5.8 0.6 0)
 		)

@@ -618,7 +618,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "4eb1aa96-576c-4b9b-a281-ad020dbe4f9d")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ERM5-010-02.0-L-DV-TR.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ERM5-010-02.0-L-DV-TR.step"
 		(offset
 			(xyz 0 0 0.15)
 		)

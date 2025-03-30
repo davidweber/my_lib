@@ -414,7 +414,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "33a268f2-85df-48b9-91af-92c10b12eaee")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/FTSH-110-01-F-D-RA.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/FTSH-110-01-F-D-RA.step"
 		(offset
 			(xyz -5.7 1.2 1.72)
 		)

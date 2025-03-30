@@ -283,7 +283,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "c632a0a4-0878-499e-a330-9180f642621a")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ASDMB-16.000MHZ-LY-T.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ASDMB-16.000MHZ-LY-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

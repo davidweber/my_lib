@@ -869,7 +869,7 @@
 		)
 		(uuid "43e9d75b-51bc-4fbf-9b65-a2504d5f9923")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ADS1158IRTCT.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ADS1158IRTCT.step"
 		(offset
 			(xyz 0 0 0)
 		)

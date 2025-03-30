@@ -607,7 +607,7 @@
 		)
 		(uuid "7b3efa4e-d3f3-4164-bfc2-6da7f22b1621")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/93463-5206.stp"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/93463-5206.stp"
 		(offset
 			(xyz 12 8 0)
 		)

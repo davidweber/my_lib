@@ -187,7 +187,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "70662527-da1d-4d70-812d-4cb967d8a17f")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/KMR221GLFS.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/KMR221GLFS.step"
 		(offset
 			(xyz 0 0 1.5)
 		)

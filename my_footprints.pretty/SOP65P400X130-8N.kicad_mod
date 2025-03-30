@@ -248,7 +248,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "625d66e1-126c-4914-aefc-a2f815ff31c9")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/SN74LVC3G17DCTR.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/SN74LVC3G17DCTR.step"
 		(offset
 			(xyz 0 0 0)
 		)

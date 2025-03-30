@@ -6154,7 +6154,7 @@
 		(remove_unused_layers no)
 		(uuid "3ce4c53a-a8e5-48b9-a8c9-2f05aecfb447")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/SAMTEC-LS2-125-01-X-D.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/SAMTEC-LS2-125-01-X-D.step"
 		(offset
 			(xyz 0 0 0)
 		)

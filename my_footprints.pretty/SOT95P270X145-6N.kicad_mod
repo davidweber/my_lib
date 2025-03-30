@@ -461,7 +461,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "e6075ff4-be88-4e92-9c96-7be68907a7a6")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/MCP1501T-25E_CHY.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/MCP1501T-25E_CHY.step"
 		(offset
 			(xyz 0 0 0)
 		)

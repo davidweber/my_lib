@@ -1027,7 +1027,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "4b42be54-e81b-412d-8f8d-1c1983426be9")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/74LVC125APW_AUJ.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/74LVC125APW_AUJ.step"
 		(offset
 			(xyz 0 0 0)
 		)

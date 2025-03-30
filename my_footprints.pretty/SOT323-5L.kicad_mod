@@ -217,7 +217,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "28de4739-0d6c-456f-adc6-5f194f33b64f")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ESDALC6V1W5.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ESDALC6V1W5.step"
 		(offset
 			(xyz 0 -1 0)
 		)

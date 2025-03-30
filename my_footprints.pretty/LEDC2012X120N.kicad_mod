@@ -211,7 +211,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "ad5c3b72-01ea-47ae-9f22-b108a4a4ea70")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/SML-LXT0805GW-TR.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/SML-LXT0805GW-TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

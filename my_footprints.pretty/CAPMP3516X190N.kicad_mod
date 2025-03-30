@@ -282,7 +282,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "a9839af0-13b9-4240-9528-6ceac5739cbf")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/TAJB106K025RNJ.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/TAJB106K025RNJ.step"
 		(offset
 			(xyz 0 0 0)
 		)

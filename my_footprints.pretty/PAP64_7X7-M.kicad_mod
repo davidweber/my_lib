@@ -5252,7 +5252,7 @@
 		(remove_unused_layers no)
 		(uuid "41cc15b5-43b5-4ffa-85b4-3d91927780ad")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ADS1178IPAPR.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ADS1178IPAPR.step"
 		(offset
 			(xyz 0 0 0)
 		)

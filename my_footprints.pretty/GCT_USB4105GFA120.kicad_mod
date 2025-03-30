@@ -361,7 +361,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "d460b863-ea6b-4927-b078-ae0c1b0749e3")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/USB4105GFA120.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/USB4105GFA120.step"
 		(offset
 			(xyz 0 0 0)
 		)

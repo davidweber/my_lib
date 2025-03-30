@@ -554,7 +554,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b1f6ab10-be38-4f21-8e8a-98770e2bdecc")
 	)
-	(model "/Users/weber/kicad/my_lib/my_3dmodels/TSOT-23-5_RIT.step"
+	(model "/Users/weber/kicad/repos/my_lib/my_3dmodels/TSOT-23-5_RIT.step"
 		(offset
 			(xyz 0 0 0)
 		)

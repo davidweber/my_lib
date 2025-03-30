@@ -232,7 +232,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "26612cdb-5b8e-4af3-85b4-ec78a4ef8077")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ASFL1-25.000MHZ-L-T.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ASFL1-25.000MHZ-L-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -315,7 +315,7 @@
 		(remove_unused_layers no)
 		(uuid "1323c51e-244c-445e-8e63-ffb7134769fa")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/PTS636_SK43_LFS.stp"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/PTS636_SK43_LFS.stp"
 		(offset
 			(xyz 3 0 0)
 		)

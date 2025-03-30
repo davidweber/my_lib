@@ -713,7 +713,7 @@
 			)
 		)
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ESP32-C6-MINI-1-N4.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ESP32-C6-MINI-1-N4.step"
 		(offset
 			(xyz 0 2.7 0)
 		)

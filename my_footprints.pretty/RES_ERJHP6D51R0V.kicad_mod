@@ -176,7 +176,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "41a5f53f-ea9b-4e4e-a7c4-b5cd90169056")
 	)
-	(model "/home/weber/kicad/my_lib/my_3dmodels/ERJHP6D51R0V.step"
+	(model "/home/weber/kicad/repos/my_lib/my_3dmodels/ERJHP6D51R0V.step"
 		(offset
 			(xyz 0 0 0)
 		)
