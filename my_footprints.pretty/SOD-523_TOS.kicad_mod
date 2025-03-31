@@ -372,4 +372,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "93b074e5-daa1-4101-ae63-285f92808c4e")
 	)
+	(model "${KICAD_MY_LIB_DIR}/my_3dmodels/SOD523.step"
+		(offset
+			(xyz 0 -0.55 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
 )
