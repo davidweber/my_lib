@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 2.25 -1.75 180)
+		(at 0 -1.8 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8241ee08-887f-44a9-aeb9-eb01daa4c3ad")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "my_footprints:CAPMP3516X190N"
-		(at 0 0 180)
+		(at 0 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" "10 µF Molded Tantalum Capacitors 25 V 1411 (3528 Metric), 1210 2.5Ohm"
-		(at 0 0 180)
+		(at 0 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,7 +68,7 @@
 		)
 	)
 	(property "MF" "AVX"
-		(at 0 0 180)
+		(at 0.1 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -81,7 +81,7 @@
 		)
 	)
 	(property "PACKAGE" "1411 AVX Corporation"
-		(at 0 0 180)
+		(at 0 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -94,7 +94,7 @@
 		)
 	)
 	(property "PRICE" "None"
-		(at 0 0 180)
+		(at 0.1 3.5 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -107,7 +107,7 @@
 		)
 	)
 	(property "MP" "TAJB106K025RNJ"
-		(at 0 0 180)
+		(at 0 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -120,7 +120,7 @@
 		)
 	)
 	(property "AVAILABILITY" "In Stock"
-		(at 0 0 180)
+		(at 0 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -133,7 +133,7 @@
 		)
 	)
 	(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/TAJB106K025RNJ/?ref=eda"
-		(at 0 0 180)
+		(at 0 3.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -146,6 +146,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2.2 -1.6)
+		(end -1.8 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65f76c2c-27e6-44f9-8e2f-6e0365fd7974")
+	)
+	(fp_line
+		(start -2 -1.8)
+		(end -2 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc49c254-79f4-4463-811f-1ceee4bfb0f1")
+	)
 	(fp_line
 		(start -0.245 -0.8)
 		(end 0.245 -0.8)
@@ -248,6 +268,36 @@
 		(uuid "5cce8287-a6c3-49f1-83f9-3b325ce1a9fb")
 	)
 	(fp_line
+		(start -0.8 0)
+		(end -0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9194055b-67c7-405b-b43b-aad032f5ab04")
+	)
+	(fp_line
+		(start -0.6 -0.2)
+		(end -0.6 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f94c9073-8181-40a8-9de5-e20825c8d192")
+	)
+	(fp_line
+		(start -0.2 -0.5)
+		(end -0.2 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "693dfd1c-4804-403a-9e28-5cb397e976f4")
+	)
+	(fp_line
 		(start 1.75 -0.8)
 		(end 1.75 0.8)
 		(stroke
@@ -256,6 +306,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "51207ac1-b4d9-4623-a240-a764f750c64b")
+	)
+	(fp_arc
+		(start 0.243398 0.5)
+		(mid 0.1 0)
+		(end 0.243398 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "334ab07b-cfe0-4f43-8ab0-8f675d4f1cf6")
 	)
 	(fp_circle
 		(center -2.65 0)

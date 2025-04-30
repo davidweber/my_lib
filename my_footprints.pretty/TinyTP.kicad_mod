@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -1.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4bb50e71-78d4-43ef-b63a-8ffb8a35118c")
@@ -16,9 +16,10 @@
 		)
 	)
 	(property "Value" "TinyTP"
-		(at 0 1 0)
+		(at -0.1 1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "7e2864dd-9aa9-4d72-86f0-33e67f8f19e5")
 		(effects
 			(font
@@ -68,7 +69,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b1bca4f8-fcc3-4dd3-bff3-d8d38181a742")
@@ -80,11 +81,12 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 5)
+		(at 0 0)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(uuid "9a879742-ab97-4263-9d13-b73f54198edd")
 	)
 )

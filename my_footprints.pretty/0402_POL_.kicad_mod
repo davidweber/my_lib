@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "LTST-C281KRKT"
-		(at 0 0 0)
+		(at -0.2 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "my_footprints:0402_POL_"
-		(at 0 0 0)
+		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,7 +68,7 @@
 		)
 	)
 	(property "MF" "Lite-On"
-		(at 0 0 0)
+		(at -0.1 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -81,7 +81,7 @@
 		)
 	)
 	(property "Description_1" "\nRed 631nm LED Indication - Discrete 2V 0402 (1005 Metric)\n"
-		(at 0 0 0)
+		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -94,7 +94,7 @@
 		)
 	)
 	(property "Package" "0402 Lite-On"
-		(at 0 0 0)
+		(at -0.2 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -107,7 +107,7 @@
 		)
 	)
 	(property "Price" "None"
-		(at 0 0 0)
+		(at -0.1 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -120,7 +120,7 @@
 		)
 	)
 	(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C281KRKT/Lite-On/view-part/?ref=snap"
-		(at 0 0 0)
+		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -133,7 +133,7 @@
 		)
 	)
 	(property "MP" "LTST-C281KRKT"
-		(at 0 0 0)
+		(at -0.2 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -146,7 +146,7 @@
 		)
 	)
 	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=266130&manufacturer=Lite-On&part_name=LTST-C281KRKT&search_term=ltst-c281krkt"
-		(at 0 0 0)
+		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -159,7 +159,7 @@
 		)
 	)
 	(property "Availability" "In Stock"
-		(at 0 0 0)
+		(at -0.1 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -172,7 +172,7 @@
 		)
 	)
 	(property "Check_prices" "https://www.snapeda.com/parts/LTST-C281KRKT/Lite-On/view-part/?ref=eda"
-		(at 0 0 0)
+		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -210,48 +210,8 @@
 		(uuid "e432ea90-d47b-4c9d-85fd-e54bf133d21a")
 	)
 	(fp_line
-		(start -1.016 -0.508)
-		(end -1.016 0.508)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4251b7f5-6f38-4a86-8c4c-20c08c81905b")
-	)
-	(fp_line
-		(start -1.016 0.508)
-		(end -0.889 0.508)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0da701d5-e412-440a-a6b8-1bd0009bd154")
-	)
-	(fp_line
-		(start -0.889 -0.508)
-		(end -1.016 -0.508)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ca87504e-b992-43cd-9afa-a4f7e4bef5f9")
-	)
-	(fp_line
-		(start -0.889 -0.508)
-		(end -0.889 0.508)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "29f071b4-eff9-41e5-9f21-f9a0a6c26787")
-	)
-	(fp_line
-		(start -0.889 0.508)
-		(end -0.254 0.508)
+		(start -0.3175 0.508)
+		(end 0.3175 0.508)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -260,8 +220,48 @@
 		(uuid "aac65366-7869-4463-9182-bc720a05bbea")
 	)
 	(fp_line
-		(start -0.254 -0.508)
-		(end -0.889 -0.508)
+		(start -0.15 -0.15)
+		(end -0.15 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89b108bc-53c8-4ca5-ae81-f78162259493")
+	)
+	(fp_line
+		(start -0.15 0)
+		(end 0.1 -0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c60359d-28de-491d-82bb-8264e0b8d49b")
+	)
+	(fp_line
+		(start 0.1 -0.15)
+		(end 0.1 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dde16d0-851f-4c64-88f1-5f7f01121a2d")
+	)
+	(fp_line
+		(start 0.1 0.15)
+		(end -0.15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19428ed5-3668-492c-acd0-7de951b44b0e")
+	)
+	(fp_line
+		(start 0.3175 -0.5)
+		(end -0.3175 -0.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -270,26 +270,74 @@
 		(uuid "21ca8d18-536d-4e26-906f-42a9506440f3")
 	)
 	(fp_line
-		(start 0.45 -0.5)
-		(end 0.45 -0.5)
+		(start 0.6 -0.5)
+		(end 0.6 -0.5)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "71becf19-c22d-4ac5-8382-ae90c1fd6d4f")
+		(uuid "51d863ee-d698-4ddf-9763-f7ea2c7536a5")
 	)
-	(fp_poly
-		(pts
-			(xy -0.1999 -0.4001) (xy 0.1999 -0.4001) (xy 0.1999 0.4001) (xy -0.1999 0.4001)
-		)
+	(fp_line
+		(start -0.3 -0.2)
+		(end -0.3 0.2)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "1dc23394-ded0-4cda-bc4c-12a648bb48a3")
+		(layer "F.Fab")
+		(uuid "facc2f79-903b-438f-9630-a212f1c576e2")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "82158144-f23e-487f-8eca-8b743f82ca54")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end 0.2 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "763a95f9-9434-485d-a003-3a9d59804e46")
+	)
+	(fp_line
+		(start 0.2 -0.2)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "21873db9-382c-4042-89a9-1ba9d9909946")
+	)
+	(fp_line
+		(start 0.2 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "75162c9c-1277-4a23-b7ff-2f6b99a54eac")
+	)
+	(fp_line
+		(start 0.2 0.2)
+		(end -0.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0f969768-816d-4168-bda2-cef3b2beb748")
 	)
 	(pad "1" smd rect
 		(at -0.43485 0)
