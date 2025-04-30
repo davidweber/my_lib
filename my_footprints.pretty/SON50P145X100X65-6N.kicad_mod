@@ -211,7 +211,7 @@
 		)
 	)
 	(property "Description_1" "\nCap Tant Solid 6.8uF 35V G CASE 10% (6.73 X 2.79 X 2.79mm) SMD (0.01%FR) T/R\n"
-		(at 0 0 180)
+		(at 0 2.3 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -264,16 +264,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0.5 -0.945)
-		(end -0.5 -0.945)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "eb817500-1f03-4701-a6a9-72daa86dc9d6")
-	)
-	(fp_line
 		(start -0.5 0.945)
 		(end 0.5 0.945)
 		(stroke
@@ -283,9 +273,19 @@
 		(layer "F.SilkS")
 		(uuid "d9619b2a-5f23-4dc0-9c2b-d3b9f002450e")
 	)
+	(fp_line
+		(start 0.5 -0.945)
+		(end -0.5 -0.945)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb817500-1f03-4701-a6a9-72daa86dc9d6")
+	)
 	(fp_circle
-		(center -0.85 -0.95)
-		(end -0.75 -0.95)
+		(center -1.15 -0.5)
+		(end -1.05 -0.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -293,36 +293,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "d7ffd033-8928-4f14-b939-191097159681")
-	)
-	(fp_line
-		(start 1.05 0.975)
-		(end 1.05 -0.975)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "cb694a92-367d-45d1-bca8-dde293954d93")
-	)
-	(fp_line
-		(start 1.05 -0.975)
-		(end -1.05 -0.975)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1259be7a-0e0f-4b42-88ce-67da99d2871e")
-	)
-	(fp_line
-		(start -1.05 0.975)
-		(end 1.05 0.975)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "5ee3c679-7f4b-4766-84e5-7b6a1fef7329")
 	)
 	(fp_line
 		(start -1.05 -0.975)
@@ -335,24 +305,44 @@
 		(uuid "d5543d7a-71eb-4134-86dc-d0377ce18ba9")
 	)
 	(fp_line
-		(start 0.5 0.725)
-		(end 0.5 -0.725)
+		(start -1.05 0.975)
+		(end 1.05 0.975)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
-		(uuid "d89c31f6-9a22-4a1b-96ff-4a833afd45c6")
+		(layer "F.CrtYd")
+		(uuid "5ee3c679-7f4b-4766-84e5-7b6a1fef7329")
 	)
 	(fp_line
-		(start 0.5 -0.725)
-		(end -0.5 -0.725)
+		(start 1.05 -0.975)
+		(end -1.05 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1259be7a-0e0f-4b42-88ce-67da99d2871e")
+	)
+	(fp_line
+		(start 1.05 0.975)
+		(end 1.05 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb694a92-367d-45d1-bca8-dde293954d93")
+	)
+	(fp_line
+		(start -0.5 -0.725)
+		(end -0.5 0.725)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9beda52f-f8d6-4314-802e-413ebe242924")
+		(uuid "f372bf66-4698-4e27-9579-d7e572ce96d9")
 	)
 	(fp_line
 		(start -0.5 0.725)
@@ -365,18 +355,28 @@
 		(uuid "fb4bc6a0-88ab-4eeb-a566-19b5edd6be13")
 	)
 	(fp_line
-		(start -0.5 -0.725)
-		(end -0.5 0.725)
+		(start 0.5 -0.725)
+		(end -0.5 -0.725)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f372bf66-4698-4e27-9579-d7e572ce96d9")
+		(uuid "9beda52f-f8d6-4314-802e-413ebe242924")
+	)
+	(fp_line
+		(start 0.5 0.725)
+		(end 0.5 -0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d89c31f6-9a22-4a1b-96ff-4a833afd45c6")
 	)
 	(fp_circle
-		(center -0.85 -0.95)
-		(end -0.75 -0.95)
+		(center -1.15 -0.5)
+		(end -1.05 -0.5)
 		(stroke
 			(width 0.1)
 			(type solid)

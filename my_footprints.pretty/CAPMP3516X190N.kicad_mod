@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 180)
+		(at 0.1 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -147,8 +147,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.2 -1.6)
-		(end -1.8 -1.6)
+		(start -1.6 -1.6)
+		(end -1.4 -1.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -157,8 +157,8 @@
 		(uuid "65f76c2c-27e6-44f9-8e2f-6e0365fd7974")
 	)
 	(fp_line
-		(start -2 -1.8)
-		(end -2 -1.4)
+		(start -1.5 -1.7)
+		(end -1.5 -1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -187,8 +187,8 @@
 		(uuid "fa923dba-967a-4d73-a3d3-72fdc0cfc366")
 	)
 	(fp_circle
-		(center -2.65 0)
-		(end -2.55 0)
+		(center -2.8 0)
+		(end -2.7 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -288,8 +288,8 @@
 		(uuid "f94c9073-8181-40a8-9de5-e20825c8d192")
 	)
 	(fp_line
-		(start -0.2 -0.5)
-		(end -0.2 0.5)
+		(start -0.2 -0.65)
+		(end -0.2 0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -308,9 +308,9 @@
 		(uuid "51207ac1-b4d9-4623-a240-a764f750c64b")
 	)
 	(fp_arc
-		(start 0.243398 0.5)
-		(mid 0.1 0)
-		(end 0.243398 -0.5)
+		(start 0.316985 0.671461)
+		(mid 0.078677 0.013685)
+		(end 0.3 -0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -319,8 +319,8 @@
 		(uuid "334ab07b-cfe0-4f43-8ab0-8f675d4f1cf6")
 	)
 	(fp_circle
-		(center -2.65 0)
-		(end -2.55 0)
+		(center -2.8 0)
+		(end -2.7 0)
 		(stroke
 			(width 0.1)
 			(type solid)

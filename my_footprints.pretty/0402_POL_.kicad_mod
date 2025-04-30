@@ -280,16 +280,6 @@
 		(uuid "51d863ee-d698-4ddf-9763-f7ea2c7536a5")
 	)
 	(fp_line
-		(start -0.3 -0.2)
-		(end -0.3 0.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "facc2f79-903b-438f-9630-a212f1c576e2")
-	)
-	(fp_line
 		(start -0.3 0)
 		(end -0.5 0)
 		(stroke
@@ -300,14 +290,34 @@
 		(uuid "82158144-f23e-487f-8eca-8b743f82ca54")
 	)
 	(fp_line
-		(start -0.3 0)
-		(end 0.2 -0.2)
+		(start -0.15 -0.15)
+		(end -0.15 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "facc2f79-903b-438f-9630-a212f1c576e2")
+	)
+	(fp_line
+		(start -0.15 0)
+		(end 0.1 -0.15)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
 		(uuid "763a95f9-9434-485d-a003-3a9d59804e46")
+	)
+	(fp_line
+		(start 0.1 0.15)
+		(end -0.15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0f969768-816d-4168-bda2-cef3b2beb748")
 	)
 	(fp_line
 		(start 0.2 -0.2)
@@ -328,16 +338,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "75162c9c-1277-4a23-b7ff-2f6b99a54eac")
-	)
-	(fp_line
-		(start 0.2 0.2)
-		(end -0.3 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "0f969768-816d-4168-bda2-cef3b2beb748")
 	)
 	(pad "1" smd rect
 		(at -0.43485 0)
