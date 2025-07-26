@@ -1,0 +1,162 @@
+(footprint "D2FC-F-7N(60M)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.29 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fdbc4f6-4a62-49e2-8491-04d1a2e815c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "D2FC-F-7N(60M)"
+		(at -0.02 7.49 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11a26bca-2ab2-43f1-a066-1a6643e6b03a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4239a05a-0a2e-4f9f-a157-87dc56b16f7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4af0379e-76d9-4d98-8e5e-935df09bce21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "918e59c1-2fc9-4487-9269-157182e5de3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.08 -3.06)
+		(end 3.08 -1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8873e942-1208-40e4-9c94-cc371bc2e587")
+	)
+	(fp_rect
+		(start -2.98 -6.48)
+		(end 2.98 6.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dd5f92dc-fd8a-4810-bd74-44412b50561f")
+	)
+	(fp_circle
+		(center -3.44 -6.09)
+		(end -3.213726 -6.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "309d2993-239f-46c7-82cc-2781fa454a9e")
+	)
+	(fp_rect
+		(start -2.9 -6.4)
+		(end 2.9 6.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f1908f35-a9a3-4bb5-92ea-83c56e04316e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.02 9.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "736c2442-9504-40dd-a0d4-c293fd383ccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -5.08)
+		(size 1.524 2.286)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0c9e9aa8-4d15-4e94-9250-1ec602ace5dd")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.524 2.286)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a071b11-ca25-42b8-99ea-cd6761d672da")
+	)
+	(pad "3" thru_hole oval
+		(at -0.02 5.08)
+		(size 1.524 2.286)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e15bce56-bc2e-4768-ae70-f27c7eb9302d")
+	)
+	(model "${KICAD_MY_LIB_DIR}/my_3dmodels/D2FC_F_7N_60M.step"
+		(offset
+			(xyz 2.9 -3.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
