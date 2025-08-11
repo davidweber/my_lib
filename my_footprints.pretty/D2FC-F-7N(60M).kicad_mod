@@ -68,17 +68,6 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -3.08 -3.06)
-		(end 3.08 -1.89)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "8873e942-1208-40e4-9c94-cc371bc2e587")
-	)
-	(fp_rect
 		(start -2.98 -6.48)
 		(end 2.98 6.48)
 		(stroke
@@ -88,6 +77,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "dd5f92dc-fd8a-4810-bd74-44412b50561f")
+	)
+	(fp_rect
+		(start -2.93 -2.875)
+		(end 2.97 -1.705)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8873e942-1208-40e4-9c94-cc371bc2e587")
 	)
 	(fp_circle
 		(center -3.44 -6.09)
@@ -101,8 +101,8 @@
 		(uuid "309d2993-239f-46c7-82cc-2781fa454a9e")
 	)
 	(fp_rect
-		(start -2.9 -6.4)
-		(end 2.9 6.4)
+		(start -3.17 -6.56)
+		(end 3.2 6.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -150,7 +150,7 @@
 	)
 	(model "${KICAD_MY_LIB_DIR}/my_3dmodels/D2FC_F_7N_60M.step"
 		(offset
-			(xyz 2.9 -3.25 0)
+			(xyz 2.9 -3.25 1.5)
 		)
 		(scale
 			(xyz 1 1 1)

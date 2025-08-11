@@ -246,24 +246,12 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "82a6b602-e721-4273-bfc7-31354037327e")
 	)
-	(model "/Users/weber/kicad/weber-kicad-library/weber-my_3dmodels/RT9080-33GJ5.step"
-		(hide yes)
+	(model "${KICAD_MY_LIB_DIR}/my_3dmodels/RT9080-33GJ5.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
-	)
-	(model "/Users/weber/kicad/weber-kicad-library/weber-my_3dmodels/RT9080-33GJ5--3DModel-STEP-56544.STEP"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1.3 1 1)
 		)
 		(rotate
 			(xyz -90 0 0)
