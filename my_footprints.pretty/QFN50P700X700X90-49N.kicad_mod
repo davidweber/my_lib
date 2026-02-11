@@ -686,7 +686,7 @@
 		(at -1.7 -1.7)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -706,7 +706,7 @@
 		(at -1.7 0)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -726,7 +726,7 @@
 		(at -1.7 1.7)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -746,7 +746,7 @@
 		(at 0 -1.7)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -766,7 +766,7 @@
 		(at 0 0)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -793,7 +793,7 @@
 		(at 0 1.7)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -813,7 +813,7 @@
 		(at 1.7 -1.7)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -833,7 +833,7 @@
 		(at 1.7 0)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
@@ -853,7 +853,7 @@
 		(at 1.7 1.7)
 		(size 0.7 0.7)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(clearance 0.5)
 		(teardrops
