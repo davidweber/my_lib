@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "S2B-PH-K-S_LF__SN_"
+	(symbol "MM8030-2610RK0"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -5.08 3.302 0)
+			(at -7.6439 5.6055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,8 +18,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "S2B-PH-K-S_LF__SN_"
-			(at -5.08 -7.62 0)
+		(property "Value" "MM8030-2610RK0"
+			(at -7.637 -7.637 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "S2B-PH-K-S_LF__SN_:JST_S2B-PH-K-S_LF__SN_"
+		(property "Footprint" "MM8030-2610RK0:MURATA_MM8030-2610RK0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "JST Sales America Inc."
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.8mm"
+		(property "DESCRIPTION" "Conn Coaxial RCP 0Hz to 11GHz 50Ohm Solder ST SMD Reel"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "NON STANDARD-2 J.S.T."
+		(property "Package" "None"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105,7 +105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/MM8030-2610RK0/Murata+Electronics+North+America/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +125,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MM8030-2610RK0/Murata+Electronics+North+America/view-part/?ref=snap"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,17 +135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "S2B-PH-K-S(LF)(SN)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Connector Header Through Hole, Right Angle 2 position\n                        \n"
+		(property "MP" "MM8030-2610RK0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -175,7 +165,7 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "Connector Header Through Hole, Right Angle 2 position"
+		(property "Description_1" "\n                        \n                            SWG Connector Receptacle, Female Socket 50 Ohms Surface Mount Solder\n                        \n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -185,10 +175,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "S2B-PH-K-S_LF__SN__0_0"
+		(symbol "MM8030-2610RK0_0_0"
 			(rectangle
-				(start -5.08 -5.08)
-				(end 5.08 2.54)
+				(start -7.62 -5.08)
+				(end 7.62 5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -197,10 +187,10 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at -10.16 0 0)
+			(pin input line
+				(at -12.7 2.54 0)
 				(length 5.08)
-				(name "1"
+				(name "IN"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -215,10 +205,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -10.16 -2.54 0)
+			(pin output line
+				(at 12.7 2.54 180)
 				(length 5.08)
-				(name "2"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -226,6 +216,42 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -2.54 180)
+				(length 5.08) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "G2"
 					(effects
 						(font
 							(size 1.016 1.016)

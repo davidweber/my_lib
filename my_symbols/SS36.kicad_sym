@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "WL-SMCW_0603"
+	(symbol "SS36"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -1.988 3.972 0)
+			(at -2.286 1.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,8 +18,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "WL-SMCW_0603"
-			(at -2.628 -3.928 0)
+		(property "Value" "SS36"
+			(at -2.286 -3.429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "SS36:SMA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Wurth Elektronik"
+		(property "MF" "ON Semiconductor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "0603, Bright Green, Typ.(@20mA): 570nm, 40mcd, 2.0V, 140° AlInGaP"
+		(property "Description_1" "\n                        \n                            Diode Schottky 60 V 3A Surface Mount SMC (DO-214AB)\n                        \n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75,7 +75,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603 Würth Elektronik"
+		(property "Package" "SMC-2 ON Semiconductor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150060VS75000/Wurth+Electronics/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS36/Onsemi/view-part/?ref=snap"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105,7 +105,17 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "150060VS75000"
+		(property "MP" "SS36"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2607054&manufacturer=ON Semiconductor&part_name=SS36&search_term=schottky diode 3a"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150060VS75000/Wurth+Electronics/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/SS36/Onsemi/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,10 +145,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "WL-SMCW_0603_0_0"
+		(symbol "SS36_0_0"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 0)
+					(xy -1.27 -1.27) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -150,7 +160,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -162,7 +172,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 2.54 0)
+					(xy 0.635 -1.016) (xy 0.635 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -174,7 +184,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 2.54 1.27)
+					(xy 1.27 -1.27) (xy 0.635 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -186,31 +196,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 1.905) (xy -0.762 3.302)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 2.032) (xy 0.381 3.429)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 0 0)
+					(xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -222,7 +208,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 0)
+					(xy 1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -234,7 +220,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 1.27)
+					(xy 1.27 1.27) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -246,35 +232,26 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
+					(xy 1.905 1.27) (xy 1.27 1.27)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(polyline
 				(pts
-					(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
+					(xy 1.905 1.27) (xy 1.905 1.016)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type outline)
-				)
-			)
-			(text "+"
-				(at 3.08 -1.74 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
+					(type none)
 				)
 			)
 			(pin passive line
@@ -287,7 +264,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -296,7 +273,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 2.54 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -305,7 +282,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "C"
 					(effects
 						(font
 							(size 1.016 1.016)
