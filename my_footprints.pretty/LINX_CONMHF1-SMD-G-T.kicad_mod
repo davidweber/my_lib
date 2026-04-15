@@ -1,67 +1,295 @@
-
-(footprint LINX_CONMHF1-SMD-G-T (layer F.Cu) (tedit 69D93A03)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.3 -4.076 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value LINX_CONMHF1-SMD-G-T (at 9.571 3.8 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad S1 smd rect (at -1.475 0.0) (size 1.05 2.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad S3 smd rect (at 1.475 0.0) (size 1.05 2.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad S2 smd rect (at 0.0 1.525) (size 1.0 1.05) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 1 smd rect (at 0.0 -1.525) (size 1.0 1.05) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (zone (net 0) (net_name "") (layer F.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -0.95 -1.0)
-        (xy 0.95 -1.0)
-        (xy 0.95 1.0)
-        (xy -0.95 1.0)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer B.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -0.95 -1.0)
-        (xy 0.95 -1.0)
-        (xy 0.95 1.0)
-        (xy -0.95 1.0)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layers *.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks allowed) (vias not_allowed) (pads allowed ) (copperpour allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -0.95 -1.0)
-        (xy 0.95 -1.0)
-        (xy 0.95 1.0)
-        (xy -0.95 1.0)
-      )
-    )
-  )
-  (fp_line (start -1.3 -1.3) (end -1.3 1.3) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.3 1.3) (end 1.3 1.3) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.3 1.3) (end 1.3 -1.3) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.3 -1.3) (end -1.3 -1.3) (layer F.Fab) (width 0.127))
-  (fp_line (start -2.25 -2.3) (end -2.25 2.3) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.25 2.3) (end 2.25 2.3) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.25 2.3) (end 2.25 -2.3) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.25 -2.3) (end -2.25 -2.3) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0.0 -2.7) (end 0.1 -2.7) (layer F.SilkS) (width 0.2))
-  (fp_circle (center 0.0 -2.7) (end 0.1 -2.7) (layer F.Fab) (width 0.2))
+(footprint "LINX_CONMHF1-SMD-G-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -4.076 0)
+		(layer "F.SilkS")
+		(uuid "c7408012-55f9-4fe3-82ff-d0eae272e944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LINX_CONMHF1-SMD-G-T"
+		(at 9.571 3.8 0)
+		(layer "F.Fab")
+		(uuid "a1ae0b91-3259-4e57-b8e9-1d0d68314141")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eec4854-ab97-4648-b8c5-59df679011b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbde7499-6689-45b1-a0d3-2232cafd92a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e796c72c-b9a2-444f-9b93-30d608ac259c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -2.7)
+		(end 0.1 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fc9924c7-9f9a-469a-99c0-b19f654243fc")
+	)
+	(fp_line
+		(start -2.25 -2.3)
+		(end -2.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17cc55ec-5577-4a2a-ad9a-5772ca955794")
+	)
+	(fp_line
+		(start -2.25 2.3)
+		(end 2.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "240fd056-7a87-4071-999c-9744ace07c69")
+	)
+	(fp_line
+		(start 2.25 -2.3)
+		(end -2.25 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6eb1f114-fc58-4259-854a-808e93ec43ad")
+	)
+	(fp_line
+		(start 2.25 2.3)
+		(end 2.25 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0398b912-4818-4199-a323-e317e35f5f0f")
+	)
+	(fp_line
+		(start -1.3 -1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9f271e1-edc2-4d49-baa8-d5293f613219")
+	)
+	(fp_line
+		(start -1.3 1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf4c3615-fb9c-4e42-a251-8d39bc441923")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cdfed88-d2d2-4e76-b7b1-b4d24ce4bf85")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc59330f-6a7a-4753-accd-f9f26b0fa102")
+	)
+	(fp_circle
+		(center 0 -2.7)
+		(end 0.1 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f5eb4ddc-428a-4ff3-a041-c2af98b51773")
+	)
+	(pad "1" smd rect
+		(at 0 -1.525)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "850b0b59-4422-44ab-9ee0-141f7b7f34df")
+	)
+	(pad "S1" smd rect
+		(at -1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "0ecbad8d-dbf3-4a0c-8880-8460d86ab786")
+	)
+	(pad "S2" smd rect
+		(at 0 1.525)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8e92f30f-b7b2-497e-9ff7-3440ea62b43a")
+	)
+	(pad "S3" smd rect
+		(at 1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "3e320313-c5ac-4c5f-9431-e1ec3dfc4790")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "7f66d521-54fa-4122-83a6-e1af92d4cd94")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.95 -1) (xy 0.95 -1) (xy 0.95 1) (xy -0.95 1)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu" "B.Cu"
+		)
+		(uuid "4aa9191b-7399-4adc-8966-3080594cba3b")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.95 -1) (xy 0.95 -1) (xy 0.95 1) (xy -0.95 1)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "26b32a0d-119b-4535-9ac2-03877f7ee32b")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.95 -1) (xy 0.95 -1) (xy 0.95 1) (xy -0.95 1)
+			)
+		)
+	)
+	(model "${KICAD_MY_LIB_DIR}/my_3dmodels/CONMHF1-SMD-G-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
