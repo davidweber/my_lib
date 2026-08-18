@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.2 180)
+		(at 0 -0.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c66579dc-f714-40f5-86aa-d7beb46ddde5")
@@ -16,9 +16,10 @@
 		)
 	)
 	(property "Value" "5.1K"
-		(at 0 1.9 180)
+		(at 0 1.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "aa8503fa-4b25-4578-bca7-7f8553772a4c")
 		(effects
 			(font
@@ -28,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "my_footprints:0603"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
